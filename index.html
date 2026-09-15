@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prywatność Apki Seniora</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  :root{
+    --bg:#FAF7F0;
+    --surface:#FFFFFF;
+    --border:#E3DDCF;
+    --text:#1A1A1A;
+    --muted:#5a5548;
+    --navy:#0B4F8A;
+    --navy-dim:#dce8f2;
+    --terracotta:#B3402F;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#171512;
+      --surface:#211e19;
+      --border:#39352c;
+      --text:#F1ECE0;
+      --muted:#b7ae9c;
+      --navy:#6fa8d8;
+      --navy-dim:#1d2f3d;
+      --terracotta:#e2735c;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#171512;
+    --surface:#211e19;
+    --border:#39352c;
+    --text:#F1ECE0;
+    --muted:#b7ae9c;
+    --navy:#6fa8d8;
+    --navy-dim:#1d2f3d;
+    --terracotta:#e2735c;
+  }
+
+  * { box-sizing: border-box; }
+  body{
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+    line-height: 1.65;
+    padding: 0 20px 64px;
+  }
+  a{ color: var(--navy); }
+  a:focus-visible, button:focus-visible{ outline: 3px solid var(--navy); outline-offset: 2px; }
+
+  .page{ max-width: 720px; margin: 0 auto; }
+
+  header.top{
+    display:flex; align-items:center; gap:16px;
+    padding: 28px 0 22px;
+    border-bottom: 1px solid var(--border);
+  }
+  header.top .mark{ flex: none; width:52px; height:52px; border-radius:14px; background:var(--terracotta); display:flex; align-items:center; justify-content:center; }
+  header.top .titles{ min-width:0; }
+  header.top h1{ font-size: 21px; margin:0 0 2px; text-wrap: balance; }
+  header.top .sub{ font-size: 14px; color: var(--muted); margin:0; }
+
+  .langbar{
+    display:flex; gap:4px; margin: 22px 0 0;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 4px;
+    background: var(--surface);
+    width: fit-content;
+  }
+  .langbar button{
+    font-family: inherit; font-size: 14px; font-weight: 700;
+    border: none; background: transparent; color: var(--muted);
+    padding: 8px 16px; border-radius: 9px; cursor: pointer;
+  }
+  .langbar button[aria-selected="true"]{ background: var(--navy); color: #fff; }
+
+  main{ padding-top: 28px; }
+  section[hidden]{ display:none !important; }
+
+  .lede{
+    font-size: 16px; color: var(--muted); max-width: 62ch;
+    padding: 16px 18px; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; margin: 0 0 32px;
+  }
+  .lede strong{ color: var(--text); }
+
+  h2{ font-size: 18px; margin: 40px 0 10px; padding-top: 4px; text-wrap: balance; }
+  h2 .num{ color: var(--navy); font-variant-numeric: tabular-nums; margin-right: 8px; }
+  p, li{ font-size: 16px; max-width: 66ch; }
+  ul{ padding-left: 22px; margin: 10px 0; }
+  li + li{ margin-top: 6px; }
+
+  .fact-grid{
+    display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 12px; margin: 16px 0 28px;
+  }
+  .fact{
+    border: 1px solid var(--border); background: var(--surface);
+    border-radius: 14px; padding: 14px 16px;
+  }
+  .fact .k{ font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--navy); }
+  .fact .v{ font-size: 15px; margin-top: 4px; }
+
+  .contact{
+    margin-top: 44px; padding: 20px; border-radius: 14px;
+    background: var(--navy-dim); border: 1px solid var(--border);
+  }
+  .contact h2{ margin-top:0; }
+
+  footer{ margin-top: 40px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <header class="top">
+    <div class="mark" aria-hidden="true">
+      <svg width="30" height="30" viewBox="0 0 100 100">
+        <path d="M50 10 L82 22 L82 52 Q82 78 50 92 Q18 78 18 52 L18 22 Z" fill="#FAF7F0"/>
+        <g fill="#0B4F8A">
+          <polygon points="42,20 58,20 50,10"/>
+          <rect x="44" y="20" width="12" height="10" rx="1.5"/>
+          <polygon points="46,30 54,30 58,72 42,72"/>
+          <rect x="38" y="72" width="24" height="8" rx="1.5"/>
+        </g>
+      </svg>
+    </div>
+    <div class="titles">
+      <h1>Polityka prywatności — Apka Seniora (SafeYears)</h1>
+      <p class="sub">Obowiązuje od 15 września 2026 · Effective September 15, 2026</p>
+    </div>
+  </header>
+
+  <div class="langbar" role="tablist" aria-label="Język / Language">
+    <button id="tab-pl" role="tab" aria-selected="true" aria-controls="sec-pl">Polski</button>
+    <button id="tab-en" role="tab" aria-selected="false" aria-controls="sec-en">English</button>
+  </div>
+
+  <main>
+
+    <section id="sec-pl">
+      <p class="lede">
+        <strong>W skrócie:</strong> Apka Seniora nie zakłada kont, nie zbiera danych
+        osobowych i nie zawiera reklam ani analityki śledzącej. Wszystko, co
+        zapisujesz — ustawienia i opcjonalny numer zaufanej osoby — zostaje
+        wyłącznie na Twoim telefonie.
+      </p>
+
+      <div class="fact-grid">
+        <div class="fact"><div class="k">Konto</div><div class="v">Nie wymagane — nie istnieje</div></div>
+        <div class="fact"><div class="k">Reklamy</div><div class="v">Brak, na stałe</div></div>
+        <div class="fact"><div class="k">Analityka / śledzenie</div><div class="v">Brak</div></div>
+        <div class="fact"><div class="k">Dane wysyłane na serwer</div><div class="v">Żadne</div></div>
+      </div>
+
+      <h2><span class="num">1.</span>Jakie dane zapisujemy</h2>
+      <p>
+        Aplikacja działa w całości offline. Lokalnie, na Twoim urządzeniu,
+        zapisywane są wyłącznie:
+      </p>
+      <ul>
+        <li>ustawienia wyświetlania (rozmiar tekstu, tryb wysokiego kontrastu, wybrany język),</li>
+        <li>opcjonalny numer telefonu osoby zaufanej, jeśli sam go dodasz w Ustawieniach,</li>
+        <li>opcjonalny numer telefonu do Twojego banku, jeśli sam go dodasz w Ustawieniach.</li>
+      </ul>
+      <p>
+        Te dane nigdy nie opuszczają telefonu — nie są wysyłane do nas ani do
+        żadnej osoby trzeciej. Katalog zagrożeń i porad jest częścią instalacyjną
+        aplikacji i nie wymaga połączenia z internetem, by działać.
+      </p>
+
+      <h2><span class="num">2.</span>Funkcja „Udostępnij”</h2>
+      <p>
+        Gdy dotkniesz przycisku udostępniania, otwiera się systemowe okno
+        udostępniania Twojego telefonu (to samo, którego używają inne aplikacje).
+        Wybierasz tam sam, komu i czym — SMS-em, WhatsAppem, e-mailem — chcesz się
+        podzielić poradą. Aplikacja nie widzi ani nie zapisuje, z kim się
+        podzieliłeś ani czy w ogóle to zrobiłeś.
+      </p>
+
+      <h2><span class="num">3.</span>Reklamy i monetyzacja</h2>
+      <p>
+        Świadomie zrezygnowaliśmy z jakiejkolwiek reklamy w aplikacji — również
+        z sieci reklamowych typu AdMob. Rozwój aplikacji finansowany jest inaczej
+        (jednorazowy zakup, dotacje lub licencje instytucjonalne), więc nie ma
+        potrzeby zbierania danych o Tobie w celach reklamowych.
+      </p>
+
+      <h2><span class="num">4.</span>Uprawnienia i łącza zewnętrzne</h2>
+      <p>
+        Niektóre porady zawierają odnośniki do zewnętrznych stron (np. serwisów
+        rządowych czy bankowych z informacjami o oszustwach) — otwierają się
+        w przeglądarce Twojego telefonu i podlegają polityce prywatności tamtej
+        strony, nie naszej. Sama aplikacja nie wymaga dostępu do kontaktów,
+        lokalizacji, aparatu ani mikrofonu.
+      </p>
+
+      <h2><span class="num">5.</span>Dzieci</h2>
+      <p>
+        Aplikacja jest przeznaczona dla osób dorosłych i nie jest kierowana do
+        dzieci. Ponieważ nie zbieramy żadnych danych od nikogo, nie zbieramy ich
+        także od dzieci.
+      </p>
+
+      <h2><span class="num">6.</span>Zmiany w przyszłości</h2>
+      <p>
+        Jeśli kiedyś dodamy opcjonalną aktualizację treści katalogu przez internet,
+        zaktualizujemy tę stronę zanim to nastąpi i jasno opiszemy, jakie dane
+        (jeśli jakiekolwiek) taka funkcja by wysyłała. Obecna wersja tego nie robi.
+      </p>
+
+      <h2><span class="num">7.</span>Usuwanie danych</h2>
+      <p>
+        Skoro nic nie trafia na nasze serwery, nie ma czego usuwać z naszej
+        strony. Lokalne ustawienia i numer zaufanej osoby możesz wyczyścić w
+        każdej chwili w Ustawieniach aplikacji lub przez odinstalowanie jej.
+      </p>
+
+      <div class="contact">
+        <h2 style="margin-top:0"><span class="num">8.</span>Kontakt</h2>
+        <p style="margin-bottom:0">
+          Pytania dotyczące prywatności: <a href="mailto:Tomasz.K.Dev@gmail.com">Tomasz.K.Dev@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="sec-en" hidden>
+      <p class="lede">
+        <strong>In short:</strong> Apka Seniora / SafeYears has no accounts, collects
+        no personal data, and contains no ads or tracking analytics. Anything you
+        save — settings and an optional trusted-contact number — stays on your
+        phone only.
+      </p>
+
+      <div class="fact-grid">
+        <div class="fact"><div class="k">Account</div><div class="v">Not required — doesn't exist</div></div>
+        <div class="fact"><div class="k">Ads</div><div class="v">None, permanently</div></div>
+        <div class="fact"><div class="k">Analytics / tracking</div><div class="v">None</div></div>
+        <div class="fact"><div class="k">Data sent to a server</div><div class="v">None</div></div>
+      </div>
+
+      <h2><span class="num">1.</span>What we store</h2>
+      <p>The app works entirely offline. Locally, on your device only, we store:</p>
+      <ul>
+        <li>display settings (text size, high-contrast mode, chosen language),</li>
+        <li>an optional trusted-contact phone number, if you add one yourself in Settings,</li>
+        <li>an optional phone number for your bank, if you add one yourself in Settings.</li>
+      </ul>
+      <p>
+        This data never leaves your phone — it isn't sent to us or to anyone
+        else. The threats-and-advice catalog ships bundled with the app and
+        needs no internet connection to work.
+      </p>
+
+      <h2><span class="num">2.</span>The "Share" feature</h2>
+      <p>
+        Tapping share opens your phone's own system share sheet — the same one
+        every other app uses. You choose who to share a tip with and how (SMS,
+        WhatsApp, email). The app never sees or records who you shared with, or
+        whether you shared at all.
+      </p>
+
+      <h2><span class="num">3.</span>Ads and monetization</h2>
+      <p>
+        We deliberately chose not to include any advertising — including ad
+        networks such as AdMob. The app is funded another way (a one-time
+        purchase, grants, or institutional licensing), so there's no need to
+        collect data about you for ad targeting.
+      </p>
+
+      <h2><span class="num">4.</span>Permissions and outside links</h2>
+      <p>
+        Some advice entries link to outside websites (for example, government or
+        banking fraud-prevention pages) — these open in your phone's browser and
+        are covered by that site's own privacy policy, not ours. The app itself
+        does not request access to contacts, location, camera, or microphone.
+      </p>
+
+      <h2><span class="num">5.</span>Children</h2>
+      <p>
+        The app is built for adults and is not directed at children. Because we
+        collect no data from anyone, we collect none from children either.
+      </p>
+
+      <h2><span class="num">6.</span>Future changes</h2>
+      <p>
+        If we ever add an optional online update to the threat catalog, we'll
+        update this page before shipping it and clearly describe what data, if
+        any, that feature would send. The current version does not do this.
+      </p>
+
+      <h2><span class="num">7.</span>Deleting your data</h2>
+      <p>
+        Since nothing reaches our servers, there's nothing on our end to
+        delete. You can clear local settings and the trusted-contact number at
+        any time from the app's Settings, or by uninstalling it.
+      </p>
+
+      <div class="contact">
+        <h2 style="margin-top:0"><span class="num">8.</span>Contact</h2>
+        <p style="margin-bottom:0">
+          Privacy questions: <a href="mailto:Tomasz.K.Dev@gmail.com">Tomasz.K.Dev@gmail.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Apka Seniora / SafeYears · Polityka prywatności / Privacy policy · v1.0 · 2026-09-15
+  </footer>
+
+</div>
+
+<script>
+  (function(){
+    var tabs = { pl: document.getElementById('tab-pl'), en: document.getElementById('tab-en') };
+    var secs = { pl: document.getElementById('sec-pl'), en: document.getElementById('sec-en') };
+    function select(lang){
+      Object.keys(tabs).forEach(function(k){
+        tabs[k].setAttribute('aria-selected', String(k === lang));
+        secs[k].hidden = (k !== lang);
+      });
+    }
+    tabs.pl.addEventListener('click', function(){ select('pl'); });
+    tabs.en.addEventListener('click', function(){ select('en'); });
+  })();
+</script>
+</body>
+</html>

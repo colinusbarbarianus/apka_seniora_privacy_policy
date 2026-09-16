@@ -154,7 +154,7 @@
         <div class="fact"><div class="k">Konto</div><div class="v">Nie wymagane — nie istnieje</div></div>
         <div class="fact"><div class="k">Reklamy</div><div class="v">Brak, na stałe</div></div>
         <div class="fact"><div class="k">Analityka / śledzenie</div><div class="v">Brak</div></div>
-        <div class="fact"><div class="k">Dane wysyłane na serwer</div><div class="v">Żadne</div></div>
+        <div class="fact"><div class="k">Dane wysyłane na serwer</div><div class="v">Żadne (poza opcjonalnym sprawdzeniem aktualizacji)</div></div>
       </div>
 
       <h2><span class="num">1.</span>Jakie dane zapisujemy</h2>
@@ -170,7 +170,9 @@
       <p>
         Te dane nigdy nie opuszczają telefonu — nie są wysyłane do nas ani do
         żadnej osoby trzeciej. Katalog zagrożeń i porad jest częścią instalacyjną
-        aplikacji i nie wymaga połączenia z internetem, by działać.
+        aplikacji i nie wymaga połączenia z internetem, by działać. Jedyny
+        wyjątek — ręczne sprawdzanie aktualizacji katalogu — opisany jest w
+        punkcie 6 poniżej.
       </p>
 
       <h2><span class="num">2.</span>Funkcja „Udostępnij”</h2>
@@ -206,11 +208,19 @@
         także od dzieci.
       </p>
 
-      <h2><span class="num">6.</span>Zmiany w przyszłości</h2>
+      <h2><span class="num">6.</span>Opcjonalna aktualizacja katalogu zagrożeń</h2>
       <p>
-        Jeśli kiedyś dodamy opcjonalną aktualizację treści katalogu przez internet,
-        zaktualizujemy tę stronę zanim to nastąpi i jasno opiszemy, jakie dane
-        (jeśli jakiekolwiek) taka funkcja by wysyłała. Obecna wersja tego nie robi.
+        W Ustawieniach jest przycisk „Sprawdź aktualizacje”. Aplikacja łączy się
+        z internetem <strong>wyłącznie po jego naciśnięciu</strong> — nigdy
+        automatycznie ani w tle. Po naciśnięciu aplikacja pobiera zaktualizowaną
+        listę zagrożeń z tej strony i sprawdza jej podpis cyfrowy, zanim ją
+        zastosuje, żeby mieć pewność, że lista naprawdę pochodzi od nas.
+        Zapytanie nie zawiera żadnych Twoich danych — ani ustawień, ani numerów
+        telefonów. Nasz serwer widzi wyłącznie standardowe, techniczne
+        informacje, jakie widzi każda odwiedzana strona internetowa (np. adres
+        IP zapytania) — nie zapisujemy ani nie analizujemy tych informacji.
+        Jeśli nigdy nie naciśniesz tego przycisku, aplikacja nie łączy się z
+        internetem w ogóle.
       </p>
 
       <h2><span class="num">7.</span>Usuwanie danych</h2>
@@ -240,7 +250,7 @@
         <div class="fact"><div class="k">Account</div><div class="v">Not required — doesn't exist</div></div>
         <div class="fact"><div class="k">Ads</div><div class="v">None, permanently</div></div>
         <div class="fact"><div class="k">Analytics / tracking</div><div class="v">None</div></div>
-        <div class="fact"><div class="k">Data sent to a server</div><div class="v">None</div></div>
+        <div class="fact"><div class="k">Data sent to a server</div><div class="v">None (except an optional update check)</div></div>
       </div>
 
       <h2><span class="num">1.</span>What we store</h2>
@@ -253,7 +263,8 @@
       <p>
         This data never leaves your phone — it isn't sent to us or to anyone
         else. The threats-and-advice catalog ships bundled with the app and
-        needs no internet connection to work.
+        needs no internet connection to work. The one exception — manually
+        checking for a catalog update — is described in section 6 below.
       </p>
 
       <h2><span class="num">2.</span>The "Share" feature</h2>
@@ -286,11 +297,18 @@
         collect no data from anyone, we collect none from children either.
       </p>
 
-      <h2><span class="num">6.</span>Future changes</h2>
+      <h2><span class="num">6.</span>Optional threat-catalog update</h2>
       <p>
-        If we ever add an optional online update to the threat catalog, we'll
-        update this page before shipping it and clearly describe what data, if
-        any, that feature would send. The current version does not do this.
+        Settings has a "Check for updates" button. The app connects to the
+        internet <strong>only when you tap it</strong> — never automatically,
+        never in the background. When tapped, the app downloads an updated
+        threat list from this site and checks its digital signature before
+        applying it, so it can be sure the list genuinely came from us. That
+        request contains none of your data — not your settings, not your
+        phone numbers. Our server only sees the standard, technical
+        information any visited website sees (e.g. the request's IP address)
+        — we don't log or analyse it. If you never tap that button, the app
+        never connects to the internet at all.
       </p>
 
       <h2><span class="num">7.</span>Deleting your data</h2>

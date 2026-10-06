@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "title": "Wise Guard – gevarencatalogus",
+    "description": "Lijst van de meest voorkomende vormen van oplichting en gevaren, met waarschuwingssignalen en aanbevolen acties. Relevant op elke leeftijd: sommige methoden richten zich vaker op ouderen, andere meer op jongere, online-vaardige gebruikers.",
+    "version": "0.4.0",
+    "last_updated": "2026-10-06",
+    "language": "nl",
+    "disclaimer": "Educatief materiaal. Neem bij een echt gevaar of vermoeden van oplichting contact op met de hulpdiensten (112) of uw bank.",
+    "app_name": "Wise Guard"
+  },
+  "categories": [
+    {
+      "id": "phone",
+      "name": "Telefonische oplichting"
+    },
+    {
+      "id": "online",
+      "name": "Oplichting op internet"
+    },
+    {
+      "id": "banking",
+      "name": "Bank- en financiële oplichting"
+    },
+    {
+      "id": "in_person",
+      "name": "Oplichting aan de deur / op straat"
+    },
+    {
+      "id": "mail_delivery",
+      "name": "Post en bezorging"
+    },
+    {
+      "id": "romance_social",
+      "name": "Relaties en sociale media"
+    },
+    {
+      "id": "tech_support",
+      "name": "Technische ondersteuning / computer"
+    },
+    {
+      "id": "government_impersonation",
+      "name": "Zich voordoen als autoriteiten"
+    },
+    {
+      "id": "investment",
+      "name": "Beleggingen en winsten"
+    },
+    {
+      "id": "abuse",
+      "name": "Misbruik door familie / verzorgers"
+    }
+  ],
+  "threats": [
+    {
+      "id": 1,
+      "category": "phone",
+      "title": "De truc van de „nep-politieagent / officier van justitie”",
+      "description": "Een oplichter doet zich voor als politieagent of officier van justitie, beweert dat er een onderzoek loopt tegen een bankmedewerker en vraagt uw „hulp” door geld over te maken of op te nemen.",
+      "warning_signs": [
+        "De beller zet u onder druk om snel en in het geheim te handelen",
+        "Hij vraagt u niets tegen uw familie te zeggen",
+        "Hij geeft u een nummer om terug te bellen — dat van hemzelf is"
+      ],
+      "advice": [
+        "Hang op en bel zelf 112 of uw eigen politiebureau",
+        "De politie vraagt nooit om overboekingen of geldopnames",
+        "Vertel het altijd aan uw familie voordat u een financiële beslissing neemt"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 2,
+      "category": "phone",
+      "title": "De truc van het „kleinkind / familielid”",
+      "description": "Iemand belt huilend of met een veranderde stem en zegt uw kleinkind of kind te zijn dat een ongeluk heeft gehad en dringend geld nodig heeft.",
+      "warning_signs": [
+        "De stem klinkt anders, met als excuus een verkoudheid",
+        "Er wordt een dringende overboeking of contante overdracht aan een koerier gevraagd",
+        "Ze weigeren een videogesprek"
+      ],
+      "advice": [
+        "Bel die persoon terug op een nummer dat u al kent om het te controleren",
+        "Spreek in de familie een veiligheidswachtwoord af voor zulke situaties",
+        "Geef nooit geld mee onder tijdsdruk"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 3,
+      "category": "phone",
+      "title": "De truc van de „bankmedewerker”",
+      "description": "Een nep-bankmedewerker waarschuwt voor een vermeende fraudepoging op uw rekening en zegt dat u een app voor extern beheer (bijv. AnyDesk, TeamViewer) moet installeren of autorisatiecodes moet doorgeven.",
+      "warning_signs": [
+        "Ze vragen u een programma voor extern beheer te installeren",
+        "Ze vragen om een sms-code of uw inloggegevens voor internetbankieren",
+        "Het getoonde nummer lijkt dat van uw bank te zijn (spoofing)"
+      ],
+      "advice": [
+        "Hang op en bel het nummer op uw bankpas of de officiële website van de bank",
+        "Installeer nooit programma's op verzoek van een beller",
+        "Geef nooit sms-codes, pincodes of inloggegevens door via de telefoon"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 4,
+      "category": "phone",
+      "title": "Nepprijzen / telefonische loterijen",
+      "description": "Ze vertellen u dat u een prijsvraag heeft gewonnen waaraan u nooit heeft meegedaan, om een „afhaalbijdrage” of kaartgegevens af te troggelen.",
+      "warning_signs": [
+        "Een prijs zonder aan een prijsvraag mee te doen",
+        "U moet betalen om de prijs op te halen",
+        "Tijdsdruk („alleen vandaag”)"
+      ],
+      "advice": [
+        "Echte prijzen vragen nooit om vooruitbetaling",
+        "Hang op en negeer het",
+        "Geef geen persoonlijke gegevens of kaartgegevens"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 5,
+      "category": "phone",
+      "title": "„Ja” / „nee”-opnames (spraakfraude)",
+      "description": "Een oplichter lokt een „ja” of „nee” uit dat wordt opgenomen en later wordt gebruikt om vermeende financiële verplichtingen te bevestigen.",
+      "warning_signs": [
+        "Een onbekend nummer stelt vreemde, algemene vragen",
+        "Het gesprek is heel kort en volgt een vast patroon"
+      ],
+      "advice": [
+        "Zeg geen „ja”/„nee” tegen onbekende nummers — vraag wie er belt",
+        "Hang bij verdenking op en meld het nummer",
+        "Overweeg onbekende buitenlandse nummers niet op te nemen"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 6,
+      "category": "banking",
+      "title": "Nep-sms over een geblokkeerde rekening (smishing)",
+      "description": "Een sms met een link beweert dat uw bankrekening is geblokkeerd of dat een pakket een toeslag nodig heeft, en leidt naar een valse inlogpagina.",
+      "warning_signs": [
+        "Een link in een sms van uw „bank” of „pakketbezorger”",
+        "Tijdsdruk en dreigen met blokkering van de rekening",
+        "Het adres van de pagina wijkt af van het officiële"
+      ],
+      "advice": [
+        "Tik niet op links in sms-berichten — typ het adres van uw bank zelf in",
+        "Controleer de status van het pakket op de officiële site van de bezorger",
+        "Meld verdachte sms-berichten bij de nationale cyberveiligheidsinstantie (CERT) of uw bank"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 7,
+      "category": "banking",
+      "title": "BLIK-codefraude",
+      "description": "Iemand die zich voordoet als vriend (vaak vanaf een gekaapt Facebook-/Messenger-account) vraagt „even” om een BLIK-code en neemt dan contant geld op of doet aankopen met uw geld.",
+      "warning_signs": [
+        "Een verzoek om een BLIK-code van een online „vriend”",
+        "Een ongewone schrijfstijl van die persoon",
+        "Een dringend, ongebruikelijk verzoek om geld"
+      ],
+      "advice": [
+        "Deel nooit een BLIK-code met iemand, ook niet met vrienden",
+        "Bel uw vriend om het verzoek te controleren",
+        "Meld het gekaapte account bij de beheerders van de dienst"
+      ],
+      "risk_level": "high",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "banking",
+      "title": "Valse betalingsbevestigingen / phishing-e-mails namens de bank",
+      "description": "Een e-mail die op een bericht van de bank lijkt, vraagt u op een link te klikken en in te loggen om een handeling te „bevestigen”.",
+      "warning_signs": [
+        "De afzender heeft een vergelijkbaar maar niet identiek e-mailadres",
+        "Taalfouten of ongebruikelijke formuleringen",
+        "De link leidt naar een andere pagina dan die van de bank"
+      ],
+      "advice": [
+        "Klik niet op links in verdachte e-mails",
+        "Typ het adres van de bank altijd zelf in de browser in",
+        "Bel bij twijfel uw bank"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 9,
+      "category": "banking",
+      "title": "Skimmen van bankpassen bij geldautomaten",
+      "description": "Een apparaat op een geldautomaat kopieert de pasgegevens, terwijl een piepkleine camera het invoeren van de pincode filmt.",
+      "warning_signs": [
+        "De automaat ziet er ongebruikelijk uit of heeft extra onderdelen bij de kaartlezer",
+        "Het pincodetoetsenbord voelt ruw aan of past niet goed",
+        "Iemand staat heel dicht bij u terwijl u de pincode invoert"
+      ],
+      "advice": [
+        "Bedek het toetsenbord met uw hand bij het invoeren van de pincode",
+        "Gebruik automaten binnen bankkantoren en op goed verlichte plekken",
+        "Controleer regelmatig de transactiegeschiedenis in de bankapp"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 10,
+      "category": "government_impersonation",
+      "title": "Zich voordoen als de ZUS (Poolse sociale verzekering) / de belastingdienst",
+      "description": "Een bericht of telefoontje over achterstanden, een belastingteruggave of een gegevensupdate, met het verzoek om persoonlijke gegevens of een betaling.",
+      "warning_signs": [
+        "Een verzoek om persoonlijke gegevens of rekeningnummer per telefoon/e-mail",
+        "Een link naar een „officieel formulier” buiten gov.pl",
+        "Dreigen met boetes of arrestatie als u niet reageert"
+      ],
+      "advice": [
+        "Overheidsinstanties vragen nooit om kaartgegevens per telefoon of sms",
+        "Controleer het door zelf in te loggen op gov.pl",
+        "Bel bij twijfel de betreffende instantie"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "government_impersonation",
+      "title": "Nep-meteropnemer / inspecteur",
+      "description": "Een persoon die zegt voor het gas-, elektriciteits- of waterbedrijf te werken, eist toegang en betaling voor een „inspectie” of „meterwissel”.",
+      "warning_signs": [
+        "Geen voorafgaande schriftelijke aankondiging van het bezoek",
+        "Er wordt direct contante betaling geëist",
+        "Weigering om een legitimatiebewijs te tonen"
+      ],
+      "advice": [
+        "Vraag altijd om legitimatie en bel het bedrijf om het bezoek te controleren",
+        "Echte inspecties worden meestal per brief aangekondigd",
+        "Laat geen mensen binnen die u niet kunt controleren"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 12,
+      "category": "in_person",
+      "title": "De truc van de „warm water / gas”-reparatie aan de deur",
+      "description": "Iemand biedt een „onmiddellijke” reparatie van de installatie, het schilderen van het dak of iets dergelijks aan, eist vooruitbetaling en doet het werk daarna slecht of helemaal niet.",
+      "warning_signs": [
+        "Een onaangekondigd bezoek met een aanbod voor reparaties „vandaag, ik ben toch in de buurt”",
+        "De eis van contante vooruitbetaling",
+        "Druk en intimidatie met een hoge reparatieprijs"
+      ],
+      "advice": [
+        "Beslis niet onder druk — vraag bedenktijd",
+        "Raadpleeg familie of een vertrouwde vakman",
+        "Betaal pas nadat het werk is gedaan en gecontroleerd"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 13,
+      "category": "in_person",
+      "title": "Nep-collectant",
+      "description": "Een persoon aan de deur of op straat collecteert „voor een ziek kind” of een ander doel, vaak zonder enige documentatie.",
+      "warning_signs": [
+        "Geen legitimatie van de organisatie of collectevergunning",
+        "Aandringen op een snelle contante gift",
+        "Kan de organisatie of het collectenummer niet noemen"
+      ],
+      "advice": [
+        "Controleer de inzamelaar online voordat u doneert",
+        "Doneer via overboeking naar een geverifieerde rekening, niet contant",
+        "Voel u niet verplicht om ter plekke te doneren"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 14,
+      "category": "in_person",
+      "title": "De truc „gas / water — binnenkomen en stelen”",
+      "description": "Twee personen: de een leidt u af (bijv. „de meter controleren”), de ander doorzoekt het huis naar geld of waardevolle spullen.",
+      "warning_signs": [
+        "Twee personen, een van hen vraagt u iets in een andere kamer te laten zien",
+        "Een plotseling, niet afgesproken „officieel” bezoek",
+        "Afleiding door een gesprek"
+      ],
+      "advice": [
+        "Laat onbekenden niet binnen zonder voorafgaande controle",
+        "Vraag een buur of familielid om erbij te zijn",
+        "Houd waardevolle spullen buiten handbereik"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 15,
+      "category": "mail_delivery",
+      "title": "Valse toeslag van een bezorger",
+      "description": "Een sms of e-mail van een „bezorgdienst” eist een kleine toeslag voor een pakket en leidt naar een valse betaalpagina.",
+      "warning_signs": [
+        "Een betaallink in een sms",
+        "U heeft geen pakket besteld",
+        "Het adres van de pagina wijkt af van de officiële site van de bezorger"
+      ],
+      "advice": [
+        "Controleer de status van het pakket rechtstreeks op de site van de bezorger",
+        "Tik niet op betaallinks in sms-berichten",
+        "Bel bij twijfel de bezorger"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 16,
+      "category": "mail_delivery",
+      "title": "Valse brieven over een „onbetaalde boete / achterstand”",
+      "description": "Een brief of e-mail over een achterstallige betaling, met dreigementen van juridische gevolgen en de eis om snel te betalen op een opgegeven rekening.",
+      "warning_signs": [
+        "Juridische dreigementen en tijdsdruk",
+        "Een ongebruikelijk rekeningnummer voor de betaling",
+        "De afzender kan niet worden gecontroleerd"
+      ],
+      "advice": [
+        "Controleer de zaak rechtstreeks bij de betreffende instantie of rechtbank",
+        "Betaal niet op de rekening uit een verdachte brief",
+        "Raadpleeg familie of een advocaat voordat u betaalt"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 17,
+      "category": "online",
+      "title": "Nepwebshops / aanbiedingen die „te mooi om waar te zijn” zijn",
+      "description": "Een website of advertentie biedt producten tegen een zeer lage prijs aan; na betaling komt de waar nooit aan.",
+      "warning_signs": [
+        "Een prijs die veel lager is dan overal elders",
+        "Alleen betalen via gewone overboeking, zonder betaalbescherming",
+        "Geen contactgegevens van de verkoper of bedrijfsadres"
+      ],
+      "advice": [
+        "Lees beoordelingen over de webshop voordat u koopt",
+        "Gebruik veilige betaalmethoden (bijv. rembours, beschermde kaartbetaling)",
+        "Als een aanbod te mooi lijkt, is het waarschijnlijk nep"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 18,
+      "category": "online",
+      "title": "Phishing op sociale media (Facebook/Messenger)",
+      "description": "Een vals bericht van een „vriend” met een link naar een prijsvraag of een verzoek om in te loggen, gebruikt om het account te kapen.",
+      "warning_signs": [
+        "Een ongebruikelijk bericht van een vriend, bijv. een link naar een prijsvraag",
+        "Een verzoek om gebruikersnaam en wachtwoord op een externe pagina",
+        "Een bericht in een andere stijl dan gewoonlijk"
+      ],
+      "advice": [
+        "Tik niet op verdachte links, ook niet van vrienden",
+        "Bel uw vriend om het bericht te controleren",
+        "Schakel tweestapsverificatie in voor uw socialemedia-accounts"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 19,
+      "category": "online",
+      "title": "Valse virusmeldingen (scareware)",
+      "description": "Een pop-up in de browser over een „virus” die eist dat u direct een ondersteuningsnummer belt.",
+      "warning_signs": [
+        "Een alarmerend bericht met geluid dat het scherm blokkeert",
+        "Een „support”-telefoonnummer in het venster",
+        "Druk om het venster niet te sluiten en nu te bellen"
+      ],
+      "advice": [
+        "Sluit de browser (Alt+F4) of start de computer opnieuw op",
+        "Bel nooit nummers uit zulke pop-ups",
+        "Een echt antivirusprogramma werkt nooit zo"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 20,
+      "category": "tech_support",
+      "title": "De truc van de „Microsoft / Windows-support”",
+      "description": "Een telefoontje of pop-up van een vermeende Microsoft-medewerker over een virus, met het verzoek om extern toegang tot de computer.",
+      "warning_signs": [
+        "Microsoft belt nooit uit eigen beweging",
+        "Een verzoek om software voor extern beheer te installeren (TeamViewer/AnyDesk)",
+        "De eis om een „reparatie” met een kaart te betalen"
+      ],
+      "advice": [
+        "Hang op — het is altijd oplichting",
+        "Installeer nooit programma's voor extern beheer op verzoek van een vreemde",
+        "Als u al toegang heeft gegeven, verbreek dan de internetverbinding en vraag iemand om hulp"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 21,
+      "category": "tech_support",
+      "title": "Valse update van de bankapp",
+      "description": "Een sms of e-mail met een link om de bankapp te „updaten”, die in werkelijkheid malware installeert die gegevens onderschept.",
+      "warning_signs": [
+        "Een link naar een .apk-bestand of een pagina buiten de appstore",
+        "Een verzoek om buiten Google Play / App Store te installeren",
+        "Een ongebruikelijke afzender van het bericht"
+      ],
+      "advice": [
+        "Update apps alleen via de officiële store (Google Play / App Store)",
+        "Installeer geen apps via links in sms of e-mail",
+        "Vraag bij twijfel rechtstreeks aan de bank"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 22,
+      "category": "romance_social",
+      "title": "Romance scam (loverboy-/lovergirl-oplichting)",
+      "description": "Een persoon die u online heeft leren kennen (vaak zogenaamd uit het buitenland) bouwt een emotionele relatie op en vraagt daarna geld voor een „plotselinge noodsituatie” of een reis.",
+      "warning_signs": [
+        "De persoon wil nooit persoonlijk of via video afspreken",
+        "Snelle liefdesverklaringen",
+        "Verzoeken om geld voor allerlei „dringende” behoeften"
+      ],
+      "advice": [
+        "Stuur nooit geld naar iemand die u alleen online kent",
+        "Praat met familie of vrienden over de nieuwe relatie",
+        "Controleer profielfoto's met een afbeeldingenzoekopdracht — ze zijn vaak gestolen"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 23,
+      "category": "investment",
+      "title": "Valse crypto- / handelsplatforms",
+      "description": "Een advertentie belooft hoge, snelle rendementen; na storting zijn de tegoeden niet beschikbaar en bestaan de „winsten” alleen op een vals dashboard.",
+      "warning_signs": [
+        "De belofte van zeer hoge winsten met weinig risico",
+        "Druk voor snelle en steeds grotere stortingen",
+        "Moeite of onmogelijkheid om tegoeden op te nemen"
+      ],
+      "advice": [
+        "Beleg niet onder tijdsdruk of bij beloften van „gegarandeerde” winst",
+        "Controleer of het bedrijf is geregistreerd en onder toezicht staat van de nationale financiële toezichthouder",
+        "Overleg elke belegging met familie of een onafhankelijk adviseur"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 24,
+      "category": "investment",
+      "title": "Valse vacatures „verdien thuis geld”",
+      "description": "Een aanbod voor makkelijk thuiswerk waarvoor vooraf een bijdrage voor „training” of een „startpakket” wordt gevraagd.",
+      "warning_signs": [
+        "Er moet worden betaald voordat u begint met werken",
+        "Zeer hoge verdiensten voor minimale inspanning",
+        "Geen formele arbeidsovereenkomst of contract"
+      ],
+      "advice": [
+        "Een echte werkgever vraagt nooit geld voor de kans om te werken",
+        "Controleer het bedrijf in het officiële handelsregister voordat u samenwerkt",
+        "Wees op uw hoede voor aanbiedingen zonder contract"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 25,
+      "category": "banking",
+      "title": "Valse terugbetaling / te veel betaald",
+      "description": "Een bericht over een vermeend te veel betaald bedrag of belastingteruggave, met een link naar een formulier dat kaartgegevens eist.",
+      "warning_signs": [
+        "Een onverwachte terugbetaling waarvoor kaartgegevens nodig zijn",
+        "Een link naar een pagina die bedrieglijk lijkt op een officiële overheidssite of een bank",
+        "Tijdsdruk („de terugbetaling vervalt over 24 uur”)"
+      ],
+      "advice": [
+        "Voor belastingteruggaven hoeft u nooit online een kaartnummer in te voeren",
+        "Controleer het door zelf in te loggen op de officiële site",
+        "Meld verdachte berichten bij uw nationale CERT of uw bank"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 26,
+      "category": "abuse",
+      "title": "Financieel misbruik door een verzorger of familielid",
+      "description": "Iemand die voor een naaste zorgt — een ouder, grootouder of iemand die (formeel of informeel) financieel van hem afhankelijk is — misbruikt de toegang tot de rekening, een volmacht of betaalpassen voor eigen doeleinden.",
+      "warning_signs": [
+        "Plotselinge, onverklaarde wijzigingen op de rekening",
+        "De verzorger isoleert die persoon van andere familieleden",
+        "Druk om een volmacht of testament te ondertekenen"
+      ],
+      "advice": [
+        "Houd de controle over uw eigen documenten en inloggegevens",
+        "Vraag een andere vertrouwenspersoon om naar de financiën te kijken",
+        "Neem bij verdenking contact op met de bank of maatschappelijke diensten"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 27,
+      "category": "abuse",
+      "title": "Druk om een testament of volmacht te wijzigen",
+      "description": "Iemand uit de omgeving oefent psychologische druk uit zodat een naaste een testament wijzigt, eigendom overdraagt of een volmacht over een rekening verleent.",
+      "warning_signs": [
+        "Een plotseling verzoek om belangrijke documenten „nu meteen” te ondertekenen",
+        "Isolatie van een advocaat of notaris die onafhankelijk is van degene die erom vraagt",
+        "Dreigementen of emotionele chantage"
+      ],
+      "advice": [
+        "Onderteken nooit documenten onder druk",
+        "Gebruik een onafhankelijke notaris en raadpleeg een advocaat",
+        "Bespreek de beslissing met een vertrouwenspersoon buiten de situatie"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 28,
+      "category": "online",
+      "title": "Valse QR-codes (quishing)",
+      "description": "Een valse QR-sticker (bijv. op een parkeermeter of advertentie) leidt naar een valse betaalpagina of installeert malware.",
+      "warning_signs": [
+        "De QR-code lijkt een sticker die over bestaande bebording is geplakt",
+        "De gescande pagina vraagt om kaartgegevens",
+        "Het adres na het scannen is verdacht of ingekort"
+      ],
+      "advice": [
+        "Controleer het adres van de pagina voordat u gegevens invoert",
+        "Vermijd QR-betalingen op onbekende, onzekere plekken",
+        "Gebruik bij twijfel de officiële app in plaats van de QR-code"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 29,
+      "category": "phone",
+      "title": "Onbekende „één keer overgaan”-oproepen (Wangiri / ping-call)",
+      "description": "De telefoon gaat maar één keer over vanaf een onbekend, vaak buitenlands nummer; terugbellen veroorzaakt hoge kosten voor betaalnummers.",
+      "warning_signs": [
+        "Een oproep van een onbekend buitenlands nummer die maar even duurt",
+        "Het nummer begint met een ongebruikelijke landcode",
+        "Grote nieuwsgierigheid naar wie er belde"
+      ],
+      "advice": [
+        "Bel onbekende buitenlandse nummers niet terug",
+        "Zoek het nummer online op voordat u terugbelt",
+        "Blokkeer het nummer als de oproepen zich herhalen"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 30,
+      "category": "mail_delivery",
+      "title": "Valse loterijen en prijsvragen per post",
+      "description": "Een brief over een gewonnen loterij waaraan u nooit heeft meegedaan, met de eis van „administratiekosten” om de prijs te innen.",
+      "warning_signs": [
+        "Een loterijwinst zonder deelname",
+        "Er moet worden betaald om de prijs te innen",
+        "De brief ziet er officieel uit, maar de afzender is onbekend of buitenlands"
+      ],
+      "advice": [
+        "Echte prijzen vragen nooit om vooruitbetaling",
+        "Negeer zulke brieven en reageer niet",
+        "Raadpleeg bij twijfel uw familie"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 31,
+      "category": "banking",
+      "title": "SIM-swap (overname van het telefoonnummer)",
+      "description": "Een oplichter doet zich voor als u om uw mobiele provider over te halen een dubbele simkaart uit te geven of een eSIM op zijn eigen toestel te activeren, en onderschept zo de sms-codes die uw bank gebruikt voor autorisatie.",
+      "warning_signs": [
+        "Plotseling, onverklaarbaar verlies van het telefoonsignaal",
+        "Een sms over een „simwissel” of „eSIM-activatie” die u nooit heeft aangevraagd",
+        "Geen toegang tot uw bankapp terwijl uw wachtwoord klopt"
+      ],
+      "advice": [
+        "Als u plotseling geen signaal meer heeft, neem dan op een andere manier contact op met uw provider (bijv. vanaf een andere telefoon)",
+        "Vraag uw provider om extra simbeveiliging (een pincode of een blokkade op nummerportering)",
+        "Schakel sms-/pushmeldingen in uw bankapp in voor elke transactie"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 32,
+      "category": "online",
+      "title": "Valse betaallink in marktplaats-apps (OLX/Vinted/Marktplaats)",
+      "description": "Een koper of verkoper stuurt een link „betaal de extra verzendkosten” die het echte platform sterk nabootst, om uw kaartgegevens te stelen.",
+      "warning_signs": [
+        "De link verwijst buiten het officiële domein van het platform",
+        "Druk om snel te klikken voordat het „aanbod verloopt”",
+        "De pagina vraagt om uw volledige kaartgegevens, niet alleen een bedrag"
+      ],
+      "advice": [
+        "Betaal en ontvang zendingen alleen via het eigen officiële proces van het platform, nooit via een link uit een bericht",
+        "Controleer het exacte webadres voordat u kaartgegevens invoert",
+        "Zie af van de deal als er iets niet klopt"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 33,
+      "category": "online",
+      "title": "Valse sms'jes over tol of parkeerboetes",
+      "description": "Een sms beweert dat u een onbetaalde tol of parkeerboete verschuldigd bent en bevat een „nu betalen”-link naar een valse betaalpagina.",
+      "warning_signs": [
+        "Een ingekorte link of een domein dat bijna, maar niet helemaal officieel lijkt",
+        "Urgentie („betaal binnen 24 uur om een boete te voorkomen”)",
+        "Een verzoek om kaartgegevens op een pagina buiten het officiële betaalsysteem"
+      ],
+      "advice": [
+        "Controleer een openstaand bedrag alleen in de officiële app of op de officiële website, nooit via een link uit een sms",
+        "Klik niet op links in onverwachte betaal-sms'jes",
+        "Meld de verdachte sms bij uw provider"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 34,
+      "category": "investment",
+      "title": "Nep-„makkelijk werk” – betaalde taken en stortingen",
+      "description": "Een recruiter, meestal op Telegram of WhatsApp, biedt thuiswerk aan met eenvoudige „taken” (likes, reviews) en vraagt u uiteindelijk uw eigen geld te storten om de zogenaamd verdiende bedragen te „ontgrendelen”.",
+      "warning_signs": [
+        "Het werk wordt aangeboden zonder sollicitatiegesprek en zonder contract",
+        "Op een gegeven moment moet u zelf betalen om betaald te worden",
+        "Het contact verloopt alleen via chat, zonder manier om het bedrijf te controleren"
+      ],
+      "advice": [
+        "Stort nooit uw eigen geld om verdiensten te „ontgrendelen”",
+        "Zoek het bedrijf op in een officieel handelsregister voordat u voor hen werkt",
+        "Verbreek het contact zodra ze vragen om iets te betalen"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 35,
+      "category": "phone",
+      "title": "Nagemaakte stem of video (AI-deepfake)",
+      "description": "Een oplichter gebruikt AI om de stem of het gezicht van een familielid na te maken in een videogesprek (een variant van de kleinkindtruc), of om een bekend figuur een belegging te laten aanbevelen.",
+      "warning_signs": [
+        "De video of het geluid voelt een beetje vreemd (vertraging, rare gezichtsuitdrukkingen)",
+        "De beller vermijdt een langer, natuurlijk gesprek of hangt abrupt op",
+        "Een belegging aanbevolen door een „bekende” verschijnt alleen in een advertentie, nooit op de eigen officiële kanalen van die persoon"
+      ],
+      "advice": [
+        "Controleer de identiteit door iets te vragen wat alleen de echte persoon weet",
+        "Vertrouw video of audio van publieke figuren die beleggingen aanbevelen niet — controleer hun eigen officiële kanalen",
+        "Beëindig bij twijfel het gesprek en bereik die persoon op een andere, al bekende manier"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 36,
+      "category": "in_person",
+      "title": "Huuroplichting (borg voor een advertentie die niet bestaat)",
+      "description": "Een valse woningadvertentie, vaak met een prijs onder de marktwaarde, vraagt een borg voordat u de woning heeft gezien, terwijl de „eigenaar” beweert in het buitenland te zijn en niet persoonlijk te kunnen laten zien.",
+      "warning_signs": [
+        "De prijs ligt duidelijk onder de marktwaarde",
+        "De „eigenaar” kan de woning niet persoonlijk laten zien en wijst op een reis naar het buitenland",
+        "Ze vragen een borg per overboeking voordat een huurcontract is getekend"
+      ],
+      "advice": [
+        "Betaal nooit een borg voordat u de woning heeft bezichtigd en een huurcontract heeft getekend",
+        "Controleer of de persoon daadwerkelijk het recht heeft het pand te verhuren",
+        "Gebruik gevestigde verhuurplatforms en makelaars"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 37,
+      "category": "banking",
+      "title": "Werving als „geldezel”",
+      "description": "Iemand biedt makkelijk geld aan voor het uitlenen van uw bankrekening of het doorsturen van overboekingen die u ontvangt — in werkelijkheid is dit witwassen, en de rekeninghouder wordt strafrechtelijk aansprakelijk gehouden.",
+      "warning_signs": [
+        "Een aanbod om u te betalen voor het „uitlenen” van uw bankrekening of het doorsturen van ontvangen overboekingen",
+        "De belofte van snel, makkelijk geld zonder uitleg waar het vandaan komt",
+        "Druk om speciaal hiervoor een nieuwe rekening te openen"
+      ],
+      "advice": [
+        "Laat nooit iemand anders uw bankrekening gebruiken of overboekingen doorsturen op verzoek van een vreemde",
+        "Bedenk dat u als rekeninghouder juridisch verantwoordelijk bent voor die transacties",
+        "Meld het aanbod bij de politie"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 38,
+      "category": "tech_support",
+      "title": "Gegevensdiefstal via openbare wifi of oplaadpunten",
+      "description": "Uw telefoon verbinden met een onbeveiligde openbare wifi of een onbekend openbaar usb-oplaadpunt (zogenaamde „juice jacking”) kan ertoe leiden dat iemand uw gegevens onderschept of malware installeert.",
+      "warning_signs": [
+        "Een open wifi-netwerk met een naam die een officiële sterk nabootst (bijv. „Airport_Free”)",
+        "Een openbaar usb-oplaadpunt zonder mogelijkheid om uw eigen stekkerlader te gebruiken",
+        "Uw telefoon vraagt u een onbekend apparaat te „vertrouwen” direct nadat u een kabel aansluit"
+      ],
+      "advice": [
+        "Vermijd het openen van bankapps op onbeveiligde openbare wifi",
+        "Laad op openbare plekken op met uw eigen stekkerlader of een powerbank, niet met een usb-kabel in een onbekende poort",
+        "Als uw telefoon vraagt of u een aangesloten apparaat vertrouwt, kies dan „alleen opladen”"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 39,
+      "category": "in_person",
+      "title": "Valse overheidssubsidieprogramma's (zonnepanelen, warmtepomp, vervanging van de cv-ketel)",
+      "description": "Een telefoontje, huisbezoek of online advertentie biedt een „overheidssubsidie” aan voor zonnepanelen, warmtepompen of vervanging van de cv-ketel, in ruil voor een inschrijfbijdrage, persoonlijke gegevens of het direct tekenen van een contract.",
+      "warning_signs": [
+        "Druk om meteen te tekenen, „aanbod geldt alleen vandaag”",
+        "De eis van een aanbetaling of „inschrijfbijdrage” contant voordat er enig werk is gedaan",
+        "De vermeende „ambtenaar” kan het echte programma niet noemen of naar een gov.pl-pagina verwijzen"
+      ],
+      "advice": [
+        "Controleer subsidieprogramma's alleen op officiële sites (bijv. gov.pl, Czyste Powietrze, NFOŚiGW)",
+        "Teken nooit een contract en betaal nooit een aanbetaling onder tijdsdruk",
+        "Bespreek het aanbod met familie of uw gemeente voordat u beslist"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "online",
+      "title": "Bericht „van een nieuw nummer” in een berichtenapp",
+      "description": "Een sms of WhatsApp-bericht van een onbekend nummer, dat zegt van uw kind of kleinkind te zijn dat „de telefoon kwijt is” en dringend geld nodig heeft op een nieuwe rekening.",
+      "warning_signs": [
+        "Het bericht begint met „Hoi mam/pap, ik ben het, ik ben mijn telefoon kwijt”",
+        "Een verzoek om een dringende overboeking naar een nieuw, onbekend rekeningnummer",
+        "De afzender vermijdt een telefoon- of videogesprek en wijst op een kapotte microfoon of camera"
+      ],
+      "advice": [
+        "Bel uw familielid op het vorige, bekende nummer om het te controleren",
+        "Maak geen geld over voordat u de identiteit op een andere manier heeft bevestigd",
+        "Spreek vooraf een familiewachtwoord af voor zulke situaties"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 41,
+      "category": "investment",
+      "title": "Langdurig vertrouwen opbouwen dat leidt tot een nepbelegging („pig butchering”)",
+      "description": "Een vreemde die u via een berichtenapp, datingsite of sociale media heeft leren kennen, besteedt weken aan het opbouwen van een vriendschap of relatie en raadt dan een „betrouwbaar” cryptoplatform aan dat valse winsten toont en aandringt op steeds grotere stortingen.",
+      "warning_signs": [
+        "Iemand die u alleen online kent, stuurt het gesprek snel richting „samen geld verdienen”",
+        "Hij deelt screenshots van zogenaamd enorme winsten en dringt aan op storten op een onbekend platform",
+        "Elke poging om geld op te nemen stuit op nieuwe „kosten” die eerst betaald moeten worden"
+      ],
+      "advice": [
+        "Beleg nooit geld op aanraden van iemand die u alleen online kent",
+        "Controleer het beleggingsplatform in de openbare waarschuwingslijst van uw nationale financiële toezichthouder",
+        "Verbreek het contact en praat met familie als iemand u onder druk zet om te storten"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 42,
+      "category": "phone",
+      "title": "Valse incasso die directe betaling eist",
+      "description": "Een telefoontje, sms of e-mail van een vermeend incassobureau of advocatenkantoor beweert dat u een openstaande schuld heeft en dreigt met een deurwaarder of rechtszaak als u niet direct betaalt op een opgegeven rekening.",
+      "warning_signs": [
+        "Eis van directe betaling, vaak naar een privérekening of via een link in een sms",
+        "Dreigementen met een deurwaarder of rechtbank binnen enkele uren",
+        "De bedrijfsnaam en het dossiernummer zijn in geen enkel openbaar register te controleren"
+      ],
+      "advice": [
+        "Betaal niet „meteen” uit angst — een echte incasso verloopt schriftelijk en met tijd om te reageren",
+        "Controleer het incassobureau of advocatenkantoor zelf, bijv. in het officiële handelsregister",
+        "Neem bij twijfel rechtstreeks contact op met de echte schuldeiser (bijv. uw bank) via een nummer van de officiële website"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 43,
+      "category": "online",
+      "title": "Valse website of app voor het boeken van een doktersafspraak",
+      "description": "Een valse website of advertentie die zich voordoet als een online afsprakensysteem, praktijk of het nationale zorgfonds (NFZ) vraagt u in te loggen met uw internetbankiergegevens „om uw identiteit te verifiëren” of een betaalde app te downloaden.",
+      "warning_signs": [
+        "De boekingspagina vraagt om uw bankgebruikersnaam en wachtwoord in plaats van uw vertrouwde profiel (profil zaufany)",
+        "Het webadres wijkt af van het officiële domein van de praktijk of van pacjent.gov.pl",
+        "Een eis om met de kaart te betalen om „een plek te reserveren” in de publieke gezondheidszorg"
+      ],
+      "advice": [
+        "Boek doktersafspraken alleen via de officiële site van de praktijk, telefonisch of via pacjent.gov.pl",
+        "Voer uw inloggegevens voor internetbankieren nooit in op een gezondheidswebsite",
+        "Controleer de adresbalk voordat u enige informatie invoert"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "in_person",
+      "title": "Agressieve verkoop na een „gratis” water- of luchtkwaliteitstest",
+      "description": "Iemand die zegt een bedrijf te vertegenwoordigen biedt een „gratis test” van de water- of luchtkwaliteit in uw huis aan en gebruikt dan een alarmerende, moeilijk te controleren uitslag om u onder druk te zetten direct een duur apparaat (filter, luchtreiniger) op krediet of in termijnen te kopen.",
+      "warning_signs": [
+        "De „test” eindigt met een alarmerende uitslag die moeilijk onafhankelijk te controleren is",
+        "De verkoper dringt aan op tekenen „alleen vandaag, met korting”",
+        "Hij biedt aan om meteen bij u thuis een krediet- of termijncontract te tekenen"
+      ],
+      "advice": [
+        "Vraag bedenktijd en teken tijdens het bezoek niets onder druk",
+        "Vraag een onafhankelijk oordeel (bijv. van de lokale gezondheidsdienst of een andere specialist) voordat u dure apparatuur koopt",
+        "Denk aan uw recht om een buiten de bedrijfsruimte gesloten contract binnen 14 dagen te herroepen"
+      ],
+      "risk_level": "medium"
+    }
+  ]
+}

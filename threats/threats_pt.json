@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "title": "Wise Guard – catálogo de ameaças",
+    "description": "Lista das burlas e ameaças mais comuns, com sinais de alerta e recomendações de atuação. Aplica-se a qualquer idade: alguns métodos visam mais frequentemente pessoas idosas, outros utilizadores mais jovens e habituados à internet.",
+    "version": "0.4.0",
+    "last_updated": "2026-10-06",
+    "language": "pt",
+    "disclaimer": "Material educativo. Em caso de perigo real ou suspeita de burla, contacte os serviços de emergência (112) ou o seu banco.",
+    "app_name": "Wise Guard"
+  },
+  "categories": [
+    {
+      "id": "phone",
+      "name": "Burlas telefónicas"
+    },
+    {
+      "id": "online",
+      "name": "Burlas na internet"
+    },
+    {
+      "id": "banking",
+      "name": "Burlas bancárias / financeiras"
+    },
+    {
+      "id": "in_person",
+      "name": "Burlas presenciais (porta/rua)"
+    },
+    {
+      "id": "mail_delivery",
+      "name": "Correio e entregas"
+    },
+    {
+      "id": "romance_social",
+      "name": "Relações e redes sociais"
+    },
+    {
+      "id": "tech_support",
+      "name": "Apoio técnico / computador"
+    },
+    {
+      "id": "government_impersonation",
+      "name": "Falsos agentes de autoridades"
+    },
+    {
+      "id": "investment",
+      "name": "Investimentos e lucros"
+    },
+    {
+      "id": "abuse",
+      "name": "Abuso por familiares / cuidadores"
+    }
+  ],
+  "threats": [
+    {
+      "id": 1,
+      "category": "phone",
+      "title": "A burla do «falso polícia / procurador»",
+      "description": "Um burlão faz-se passar por polícia ou procurador, afirma que há uma investigação contra um funcionário do banco e pede a sua «ajuda» através de uma transferência ou levantamento de dinheiro.",
+      "warning_signs": [
+        "Quem liga pressiona-o a agir com urgência e em segredo",
+        "Pede-lhe que não diga nada à família",
+        "Dá-lhe um número para ligar de volta, que na verdade é dele"
+      ],
+      "advice": [
+        "Desligue e ligue você mesmo para o 112 ou para a sua esquadra local",
+        "A polícia nunca pede transferências nem levantamentos de dinheiro",
+        "Informe sempre a família antes de qualquer decisão financeira"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 2,
+      "category": "phone",
+      "title": "A burla do «neto / familiar»",
+      "description": "Alguém liga a chorar ou com a voz alterada, dizendo ser o seu neto ou filho, que sofreu um acidente e precisa urgentemente de dinheiro.",
+      "warning_signs": [
+        "A voz soa diferente, com a desculpa de uma constipação",
+        "É pedida uma transferência urgente ou a entrega de dinheiro a um estafeta",
+        "Recusam fazer uma videochamada"
+      ],
+      "advice": [
+        "Ligue de volta a essa pessoa para um número que já conheça, para confirmar",
+        "Combine com a família uma palavra-passe de segurança para estes casos",
+        "Nunca entregue dinheiro sob pressão de tempo"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 3,
+      "category": "phone",
+      "title": "A burla do «funcionário do banco»",
+      "description": "Um falso funcionário do banco avisa-o de uma alegada tentativa de fraude na sua conta e manda-o instalar uma aplicação de acesso remoto (p. ex. AnyDesk, TeamViewer) ou dar códigos de autorização.",
+      "warning_signs": [
+        "Pedem-lhe que instale um programa de acesso remoto",
+        "Pedem-lhe um código SMS ou as credenciais do homebanking",
+        "O número apresentado parece ser o do seu banco (falsificação)"
+      ],
+      "advice": [
+        "Desligue e ligue para o número que consta do seu cartão ou do site oficial do banco",
+        "Nunca instale programas a pedido de quem liga",
+        "Nunca dê códigos SMS, PIN ou credenciais por telefone"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 4,
+      "category": "phone",
+      "title": "Falsos prémios / lotarias telefónicas",
+      "description": "Dizem-lhe que ganhou um concurso em que nunca participou, para lhe extorquir uma «taxa de levantamento» ou os dados do cartão.",
+      "warning_signs": [
+        "Um prémio sem ter participado em qualquer concurso",
+        "Tem de pagar para receber o prémio",
+        "Pressão de tempo («só hoje»)"
+      ],
+      "advice": [
+        "Os prémios verdadeiros nunca exigem pagamento prévio",
+        "Desligue e ignore",
+        "Não dê dados pessoais nem do cartão"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 5,
+      "category": "phone",
+      "title": "Gravações de «sim / não» (fraude de voz)",
+      "description": "Um burlão provoca um «sim» ou um «não» que é gravado e depois usado para confirmar alegadas obrigações financeiras.",
+      "warning_signs": [
+        "Um número desconhecido faz perguntas estranhas e genéricas",
+        "A chamada é muito curta e segue um guião"
+      ],
+      "advice": [
+        "Não responda «sim»/«não» a números desconhecidos — pergunte quem está a ligar",
+        "Em caso de suspeita, desligue e denuncie o número",
+        "Considere não atender números estrangeiros desconhecidos"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 6,
+      "category": "banking",
+      "title": "Falsos SMS de conta bloqueada (smishing)",
+      "description": "Um SMS com uma ligação diz que a sua conta bancária está bloqueada ou que uma encomenda exige um pagamento adicional, e leva a uma página de início de sessão falsa.",
+      "warning_signs": [
+        "Uma ligação num SMS do seu «banco» ou da sua «transportadora»",
+        "Pressão de tempo e ameaça de bloqueio da conta",
+        "O endereço da página difere do oficial"
+      ],
+      "advice": [
+        "Não toque em ligações de SMS — escreva você mesmo o endereço do seu banco",
+        "Verifique o estado da encomenda no site oficial da transportadora",
+        "Denuncie os SMS suspeitos à autoridade nacional de cibersegurança (CERT) ou ao seu banco"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 7,
+      "category": "banking",
+      "title": "Fraude do código BLIK",
+      "description": "Alguém que se faz passar por um amigo (muitas vezes a partir de uma conta de Facebook/Messenger pirateada) pede-lhe «um instante» um código BLIK e depois levanta dinheiro ou faz compras com o seu dinheiro.",
+      "warning_signs": [
+        "O pedido de um código BLIK por parte de um «amigo» online",
+        "Um estilo de escrita invulgar dessa pessoa",
+        "Um pedido de dinheiro urgente e fora do habitual"
+      ],
+      "advice": [
+        "Nunca partilhe um código BLIK com ninguém, nem com amigos",
+        "Ligue ao seu amigo para confirmar o pedido",
+        "Denuncie a conta pirateada aos administradores do serviço"
+      ],
+      "risk_level": "high",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "banking",
+      "title": "Falsos comprovativos de transferência / e-mails de phishing bancário",
+      "description": "Um e-mail com ar de mensagem do banco pede-lhe que clique numa ligação e inicie sessão para «confirmar» uma operação.",
+      "warning_signs": [
+        "O remetente tem um endereço de e-mail parecido, mas não idêntico",
+        "Erros de língua ou formulações invulgares",
+        "A ligação leva a uma página diferente da do banco"
+      ],
+      "advice": [
+        "Não clique em ligações de e-mails suspeitos",
+        "Escreva sempre você mesmo o endereço do banco no navegador",
+        "Em caso de dúvida, ligue para o seu banco"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 9,
+      "category": "banking",
+      "title": "Clonagem de cartões em caixas multibanco (skimming)",
+      "description": "Um dispositivo colocado numa caixa multibanco copia os dados do cartão, enquanto uma minúscula câmara filma a introdução do PIN.",
+      "warning_signs": [
+        "A caixa tem um aspeto invulgar ou peças a mais no leitor",
+        "O teclado do PIN é áspero ou não encaixa bem",
+        "Alguém fica muito perto de si enquanto introduz o PIN"
+      ],
+      "advice": [
+        "Tape o teclado com a mão ao introduzir o PIN",
+        "Use caixas dentro de agências bancárias e bem iluminadas",
+        "Verifique regularmente o histórico de movimentos na aplicação do banco"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 10,
+      "category": "government_impersonation",
+      "title": "Falsos avisos da ZUS (segurança social polaca) / das Finanças",
+      "description": "Uma mensagem ou chamada sobre dívidas, um reembolso de impostos ou uma atualização de dados, que pede dados pessoais ou um pagamento.",
+      "warning_signs": [
+        "Um pedido de dados pessoais ou do número de conta por telefone/e-mail",
+        "Uma ligação para um «formulário oficial» fora de gov.pl",
+        "Ameaças de multas ou detenção se não reagir"
+      ],
+      "advice": [
+        "Os serviços públicos nunca pedem dados do cartão por telefone ou SMS",
+        "Verifique iniciando você mesmo a sessão em gov.pl",
+        "Em caso de dúvida, ligue para o serviço competente"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "government_impersonation",
+      "title": "Falso leitor de contadores / inspetor",
+      "description": "Uma pessoa que diz trabalhar para a empresa de gás, eletricidade ou água exige entrar e receber um pagamento por uma «inspeção» ou «substituição do contador».",
+      "warning_signs": [
+        "Nenhum aviso prévio por escrito da visita",
+        "É exigido um pagamento imediato em dinheiro",
+        "Recusa em mostrar um cartão de identificação"
+      ],
+      "advice": [
+        "Peça sempre identificação e ligue para a empresa para confirmar a visita",
+        "As inspeções verdadeiras são normalmente anunciadas por carta",
+        "Não deixe entrar pessoas que não consiga verificar"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 12,
+      "category": "in_person",
+      "title": "A burla da reparação «água quente / gás» à porta",
+      "description": "Alguém oferece uma reparação «imediata» da instalação, a pintura do telhado ou algo semelhante, exige pagamento adiantado e depois faz o trabalho mal ou não o faz.",
+      "warning_signs": [
+        "Uma visita não solicitada que oferece reparações «hoje, já que estou na zona»",
+        "A exigência de pagamento em dinheiro adiantado",
+        "Pressão e intimidação com um preço de reparação elevado"
+      ],
+      "advice": [
+        "Não decida sob pressão — peça tempo para pensar",
+        "Consulte a família ou um profissional de confiança",
+        "Pague apenas depois de o trabalho estar feito e verificado"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 13,
+      "category": "in_person",
+      "title": "Falso peditório de donativos",
+      "description": "Uma pessoa à porta ou na rua recolhe dinheiro «para uma criança doente» ou outra causa, muitas vezes sem qualquer documentação.",
+      "warning_signs": [
+        "Sem identificação da organização nem licença para o peditório",
+        "Insistência num donativo rápido em dinheiro",
+        "Não sabe indicar a organização nem o número do peditório"
+      ],
+      "advice": [
+        "Verifique o peditório na internet antes de doar",
+        "Doe por transferência para uma conta verificada, não em dinheiro",
+        "Não se sinta obrigado a doar na hora"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 14,
+      "category": "in_person",
+      "title": "A burla «gás / água — entrada e furto»",
+      "description": "Duas pessoas: uma distrai-o (p. ex. «a verificar o contador»), a outra revista a casa à procura de dinheiro ou objetos de valor.",
+      "warning_signs": [
+        "Duas pessoas, uma pede-lhe que mostre algo noutra divisão",
+        "Uma visita «oficial» súbita e não combinada",
+        "Distração através da conversa"
+      ],
+      "advice": [
+        "Não deixe entrar desconhecidos sem verificação prévia",
+        "Peça a um vizinho ou familiar que esteja presente",
+        "Mantenha os objetos de valor fora de alcance"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 15,
+      "category": "mail_delivery",
+      "title": "Falso suplemento de transportadora",
+      "description": "Um SMS ou e-mail de uma «empresa de entregas» exige um pequeno suplemento por uma encomenda e leva a uma página de pagamento falsa.",
+      "warning_signs": [
+        "Uma ligação de pagamento num SMS",
+        "Não encomendou nenhum pacote",
+        "O endereço da página difere do site oficial da transportadora"
+      ],
+      "advice": [
+        "Verifique o estado da encomenda diretamente no site da transportadora",
+        "Não toque em ligações de pagamento em SMS",
+        "Em caso de dúvida, ligue para a transportadora"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 16,
+      "category": "mail_delivery",
+      "title": "Falsas cartas de «multa por pagar / dívidas»",
+      "description": "Uma carta ou e-mail sobre um pagamento em atraso, com ameaças de consequências legais, a exigir um pagamento rápido para uma conta indicada.",
+      "warning_signs": [
+        "Ameaças legais e pressão de tempo",
+        "Um número de conta invulgar para o pagamento",
+        "O remetente não pode ser verificado"
+      ],
+      "advice": [
+        "Confirme o caso diretamente com o serviço ou tribunal competente",
+        "Não pague para a conta de uma carta suspeita",
+        "Consulte a família ou um advogado antes de pagar"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 17,
+      "category": "online",
+      "title": "Lojas online falsas / ofertas «boas demais para ser verdade»",
+      "description": "Um site ou anúncio oferece produtos a um preço muito baixo; depois do pagamento, a mercadoria nunca chega.",
+      "warning_signs": [
+        "Um preço muito inferior ao de qualquer outro sítio",
+        "Pagamento apenas por transferência tradicional, sem proteção",
+        "Sem contactos do vendedor nem morada da empresa"
+      ],
+      "advice": [
+        "Consulte as opiniões sobre a loja antes de comprar",
+        "Use métodos de pagamento seguros (p. ex. contra reembolso, cartão com proteção)",
+        "Se uma oferta parece boa demais, provavelmente é falsa"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 18,
+      "category": "online",
+      "title": "Phishing nas redes sociais (Facebook/Messenger)",
+      "description": "Uma mensagem falsa de um «amigo» com uma ligação para um concurso ou um pedido de início de sessão, usada para piratear a conta.",
+      "warning_signs": [
+        "Uma mensagem invulgar de um amigo, p. ex. uma ligação para um concurso",
+        "Um pedido de utilizador e palavra-passe numa página externa",
+        "Uma mensagem escrita num estilo diferente do habitual"
+      ],
+      "advice": [
+        "Não toque em ligações suspeitas, mesmo que venham de amigos",
+        "Ligue ao seu amigo para confirmar a mensagem",
+        "Ative a verificação em dois passos nas suas contas de redes sociais"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 19,
+      "category": "online",
+      "title": "Falsos alertas de antivírus (scareware)",
+      "description": "Uma janela do navegador sobre um «vírus» que exige uma chamada imediata para um número de apoio.",
+      "warning_signs": [
+        "Uma mensagem alarmante com som, que bloqueia o ecrã",
+        "Um número de «apoio» na janela",
+        "Pressão para não fechar a janela e ligar já"
+      ],
+      "advice": [
+        "Feche o navegador (Alt+F4) ou reinicie o computador",
+        "Nunca ligue para números dessas janelas",
+        "Um antivírus verdadeiro nunca funciona assim"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 20,
+      "category": "tech_support",
+      "title": "A burla do «apoio da Microsoft / Windows»",
+      "description": "Uma chamada ou janela de um alegado funcionário da Microsoft sobre um vírus, a pedir acesso remoto ao computador.",
+      "warning_signs": [
+        "A Microsoft nunca liga por iniciativa própria",
+        "Pedem-lhe que instale software de acesso remoto (TeamViewer/AnyDesk)",
+        "Exigem o pagamento de uma «reparação» com cartão"
+      ],
+      "advice": [
+        "Desligue — é sempre uma burla",
+        "Nunca instale programas de acesso remoto a pedido de um desconhecido",
+        "Se já deu acesso, desligue-se da internet e peça ajuda a alguém"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 21,
+      "category": "tech_support",
+      "title": "Falsa atualização da aplicação do banco",
+      "description": "Um SMS ou e-mail com uma ligação para «atualizar» a aplicação do banco, que na verdade instala software malicioso que interceta os dados.",
+      "warning_signs": [
+        "Uma ligação para um ficheiro .apk ou uma página fora da loja de aplicações",
+        "Um pedido para instalar fora do Google Play / App Store",
+        "Um remetente da mensagem invulgar"
+      ],
+      "advice": [
+        "Atualize as aplicações apenas através da loja oficial (Google Play / App Store)",
+        "Não instale aplicações a partir de ligações de SMS ou e-mail",
+        "Em caso de dúvida, pergunte diretamente ao banco"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 22,
+      "category": "romance_social",
+      "title": "Burla amorosa",
+      "description": "Uma pessoa conhecida online (muitas vezes dizendo ser do estrangeiro) cria uma relação afetiva e depois pede dinheiro para uma «emergência súbita» ou uma viagem.",
+      "warning_signs": [
+        "A pessoa nunca quer encontrar-se pessoalmente nem por vídeo",
+        "Declarações de amor muito rápidas",
+        "Pedidos de dinheiro para várias necessidades «urgentes»"
+      ],
+      "advice": [
+        "Nunca envie dinheiro a alguém que só conhece online",
+        "Fale com a família ou amigos sobre a nova relação",
+        "Verifique as fotografias do perfil com uma pesquisa de imagens — são muitas vezes roubadas"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 23,
+      "category": "investment",
+      "title": "Falsas plataformas de criptomoedas / trading",
+      "description": "Um anúncio promete rendimentos altos e rápidos; depois do depósito, os fundos ficam indisponíveis e os «lucros» só existem num painel falso.",
+      "warning_signs": [
+        "A promessa de lucros muito altos com pouco risco",
+        "Pressão para depósitos rápidos e cada vez maiores",
+        "Dificuldade ou impossibilidade de levantar os fundos"
+      ],
+      "advice": [
+        "Não invista sob pressão de tempo nem perante promessas de lucros «garantidos»",
+        "Verifique se a empresa está registada e é supervisionada pelo regulador financeiro nacional",
+        "Consulte a família ou um consultor independente sobre cada investimento"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 24,
+      "category": "investment",
+      "title": "Falsas ofertas de emprego «ganhe dinheiro em casa»",
+      "description": "Uma oferta de trabalho remoto fácil que exige uma taxa adiantada por uma «formação» ou um «kit inicial».",
+      "warning_signs": [
+        "É exigido um pagamento antes de começar a trabalhar",
+        "Ganhos muito altos por um esforço mínimo",
+        "Sem contrato nem acordo formal de trabalho"
+      ],
+      "advice": [
+        "Um empregador verdadeiro nunca cobra pela oportunidade de trabalhar",
+        "Verifique a empresa no registo comercial oficial antes de colaborar",
+        "Desconfie de ofertas sem contrato"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 25,
+      "category": "banking",
+      "title": "Falso reembolso / pagamento em excesso",
+      "description": "Um aviso de um alegado pagamento em excesso ou reembolso de impostos, com uma ligação para um formulário que exige dados do cartão.",
+      "warning_signs": [
+        "Um reembolso inesperado que exige dados do cartão",
+        "Uma ligação para uma página enganosamente parecida com um site oficial da administração ou um banco",
+        "Pressão de tempo («o reembolso expira em 24 h»)"
+      ],
+      "advice": [
+        "Os reembolsos de impostos nunca exigem introduzir um número de cartão online",
+        "Verifique iniciando você mesmo a sessão no site oficial",
+        "Denuncie as mensagens suspeitas ao seu CERT nacional ou ao seu banco"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 26,
+      "category": "abuse",
+      "title": "Abuso financeiro por um cuidador ou familiar",
+      "description": "Alguém que cuida de um familiar próximo — um pai, avô ou qualquer pessoa que dependa dele financeiramente (formal ou informalmente) — abusa do acesso à conta, de uma procuração ou dos cartões de pagamento para os seus próprios fins.",
+      "warning_signs": [
+        "Alterações súbitas e inexplicáveis na conta",
+        "O cuidador isola essa pessoa dos outros familiares",
+        "Pressão para assinar uma procuração ou um testamento"
+      ],
+      "advice": [
+        "Mantenha o controlo dos seus documentos e dados de acesso",
+        "Peça a outra pessoa de confiança que veja as finanças",
+        "Se suspeitar, contacte o banco ou os serviços sociais"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 27,
+      "category": "abuse",
+      "title": "Pressão para alterar um testamento ou uma procuração",
+      "description": "Alguém próximo exerce pressão psicológica para que um familiar próximo altere um testamento, ceda um bem ou conceda uma procuração sobre uma conta.",
+      "warning_signs": [
+        "Um pedido súbito para assinar documentos importantes «já»",
+        "Isolamento de um advogado ou notário independente de quem pede",
+        "Ameaças ou chantagem emocional"
+      ],
+      "advice": [
+        "Nunca assine documentos sob pressão",
+        "Recorra a um notário independente e consulte um advogado",
+        "Fale sobre a decisão com uma pessoa de confiança alheia à situação"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 28,
+      "category": "online",
+      "title": "Códigos QR falsos (quishing)",
+      "description": "Um autocolante QR falso (p. ex. num parquímetro ou anúncio) leva a uma página de pagamento falsa ou instala software malicioso.",
+      "warning_signs": [
+        "O código QR parece um autocolante colado sobre uma sinalização existente",
+        "A página lida pede dados do cartão",
+        "O endereço após a leitura é suspeito ou encurtado"
+      ],
+      "advice": [
+        "Verifique o endereço da página antes de introduzir dados",
+        "Evite pagamentos por QR em locais desconhecidos ou duvidosos",
+        "Em caso de dúvida, use a aplicação oficial em vez do código QR"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 29,
+      "category": "phone",
+      "title": "Chamadas desconhecidas de «um só toque» (Wangiri / ping call)",
+      "description": "O telefone toca uma só vez de um número desconhecido, muitas vezes estrangeiro; devolver a chamada gera custos elevados de números de tarifa especial.",
+      "warning_signs": [
+        "Uma chamada de um número estrangeiro desconhecido, que dura apenas um instante",
+        "O número começa por um indicativo de país invulgar",
+        "Grande curiosidade em saber quem ligou"
+      ],
+      "advice": [
+        "Não devolva chamadas a números estrangeiros desconhecidos",
+        "Procure o número na internet antes de devolver a chamada",
+        "Bloqueie o número se as chamadas se repetirem"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 30,
+      "category": "mail_delivery",
+      "title": "Falsas lotarias e concursos por correio",
+      "description": "Uma carta que anuncia um prémio de uma lotaria em que nunca participou, a exigir uma «taxa administrativa» para o receber.",
+      "warning_signs": [
+        "Um prémio de lotaria sem ter participado",
+        "É preciso pagar para receber o prémio",
+        "A carta parece oficial, mas o remetente é desconhecido ou estrangeiro"
+      ],
+      "advice": [
+        "Os prémios verdadeiros nunca exigem pagamento prévio",
+        "Ignore estas cartas e não responda",
+        "Consulte a família em caso de dúvida"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 31,
+      "category": "banking",
+      "title": "SIM swap (tomada do número de telefone)",
+      "description": "Um burlão faz-se passar por si para convencer o seu operador móvel a emitir um cartão SIM duplicado ou a ativar um eSIM no seu próprio dispositivo, intercetando os códigos SMS que o seu banco usa para autorizar operações.",
+      "warning_signs": [
+        "Perda súbita e inexplicável de rede no telemóvel",
+        "Um SMS sobre uma «troca de SIM» ou «ativação de eSIM» que nunca pediu",
+        "Sem acesso à aplicação do banco apesar de a palavra-passe estar correta"
+      ],
+      "advice": [
+        "Se perder a rede de repente, contacte o seu operador por outra via (p. ex. a partir de outro telefone)",
+        "Peça ao seu operador que adicione uma proteção extra do SIM (um PIN ou um bloqueio de portabilidade)",
+        "Ative as notificações SMS/push na aplicação do banco para cada operação"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 32,
+      "category": "online",
+      "title": "Falsa ligação de pagamento em aplicações de compra e venda (OLX/Vinted/Marketplace)",
+      "description": "Um comprador ou vendedor envia uma ligação «pague os custos de envio adicionais» que imita de perto a plataforma verdadeira, para roubar os dados do seu cartão.",
+      "warning_signs": [
+        "A ligação aponta para fora do domínio oficial da plataforma",
+        "Pressão para clicar depressa antes de a «oferta expirar»",
+        "A página pede os dados completos do cartão, não apenas um valor"
+      ],
+      "advice": [
+        "Pague e receba envios apenas através do processo oficial da plataforma, nunca através de uma ligação numa mensagem",
+        "Verifique o endereço web exato antes de introduzir os dados do cartão",
+        "Desista do negócio se algo lhe parecer estranho"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 33,
+      "category": "online",
+      "title": "Falsos SMS de portagem ou multa de estacionamento",
+      "description": "Um SMS diz que deve uma portagem ou multa de estacionamento por pagar e inclui uma ligação «pagar agora» para uma página de pagamento falsa.",
+      "warning_signs": [
+        "Uma ligação encurtada ou um domínio que parece quase, mas não totalmente, oficial",
+        "Urgência («pague em 24 horas para evitar uma coima»)",
+        "Um pedido de dados do cartão numa página fora do sistema de pagamento oficial"
+      ],
+      "advice": [
+        "Consulte qualquer valor em dívida apenas na aplicação ou no site oficial, nunca através de uma ligação de um SMS",
+        "Não clique em ligações de SMS de pagamento inesperados",
+        "Denuncie o SMS suspeito ao seu operador"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 34,
+      "category": "investment",
+      "title": "Falso «trabalho fácil» – tarefas pagas e carregamentos",
+      "description": "Um recrutador, normalmente no Telegram ou WhatsApp, oferece trabalho remoto feito de «tarefas» simples (gostos, avaliações) e acaba por pedir-lhe que ponha o seu próprio dinheiro para «desbloquear» os ganhos alegadamente obtidos.",
+      "warning_signs": [
+        "O trabalho é oferecido sem entrevista nem contrato",
+        "A certa altura é você a quem pedem que pague para ser pago",
+        "O contacto é só por chat, sem forma de verificar a empresa"
+      ],
+      "advice": [
+        "Nunca ponha o seu próprio dinheiro para «desbloquear» ganhos",
+        "Procure a empresa num registo comercial oficial antes de trabalhar com ela",
+        "Corte o contacto assim que lhe pedirem para pagar seja o que for"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 35,
+      "category": "phone",
+      "title": "Voz ou vídeo falsificados (deepfake com IA)",
+      "description": "Um burlão usa IA para falsificar a voz ou o rosto de um familiar numa videochamada (uma variante da burla do neto), ou para fazer parecer que uma figura conhecida recomenda um investimento.",
+      "warning_signs": [
+        "O vídeo ou o áudio parece ligeiramente estranho (atrasos, expressões esquisitas)",
+        "Quem liga evita uma conversa mais longa e natural ou desliga abruptamente",
+        "Uma recomendação de investimento de uma «celebridade» só aparece num anúncio, nunca nos canais oficiais dessa pessoa"
+      ],
+      "advice": [
+        "Verifique a identidade perguntando algo que só a pessoa verdadeira saberia",
+        "Não confie em vídeos ou áudios de figuras públicas que recomendem investimentos — consulte os seus canais oficiais",
+        "Em caso de dúvida, termine a chamada e contacte essa pessoa por outra via que já conheça"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 36,
+      "category": "in_person",
+      "title": "Burla do arrendamento (caução por um anúncio que não existe)",
+      "description": "Um anúncio de apartamento falso, muitas vezes com preço abaixo do mercado, pede uma caução antes de ter visto a casa, e o «proprietário» diz estar no estrangeiro e não poder mostrá-la pessoalmente.",
+      "warning_signs": [
+        "O preço está claramente abaixo do de mercado",
+        "O «proprietário» não pode mostrar o apartamento pessoalmente, alegando uma viagem ao estrangeiro",
+        "Pedem uma caução por transferência antes de assinar qualquer contrato"
+      ],
+      "advice": [
+        "Nunca pague uma caução antes de ver o apartamento e assinar um contrato",
+        "Verifique se a pessoa tem de facto o direito de arrendar o imóvel",
+        "Use plataformas e agências de arrendamento conceituadas"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 37,
+      "category": "banking",
+      "title": "Aliciamento como «mula financeira»",
+      "description": "Alguém oferece dinheiro fácil pelo empréstimo da sua conta bancária ou pelo reencaminhamento das transferências que recebe — na realidade é branqueamento de capitais, e o titular da conta é quem responde criminalmente.",
+      "warning_signs": [
+        "Uma oferta de pagamento por «emprestar» a sua conta bancária ou reencaminhar as transferências que recebe",
+        "A promessa de dinheiro rápido e fácil sem explicar de onde vem",
+        "Pressão para abrir uma conta nova especificamente para isso"
+      ],
+      "advice": [
+        "Nunca deixe outra pessoa usar a sua conta bancária nem reencaminhar transferências a pedido de um desconhecido",
+        "Lembre-se de que, como titular da conta, é o responsável legal por essas operações",
+        "Denuncie a oferta à polícia"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 38,
+      "category": "tech_support",
+      "title": "Roubo de dados através de wifi público ou postos de carregamento",
+      "description": "Ligar o telemóvel a uma rede wifi pública não segura ou a um posto de carregamento USB público desconhecido (o chamado «juice jacking») pode permitir que alguém intercete os seus dados ou instale software malicioso.",
+      "warning_signs": [
+        "Uma rede wifi aberta com um nome que imita de perto um oficial (p. ex. «Airport_Free»)",
+        "Um posto de carregamento USB público sem opção de usar o seu próprio carregador de parede",
+        "O telemóvel pede-lhe que «confie» num dispositivo desconhecido logo após ligar um cabo"
+      ],
+      "advice": [
+        "Evite abrir aplicações bancárias em redes wifi públicas não seguras",
+        "Em locais públicos, carregue com o seu próprio carregador de parede ou um power bank, não com um cabo USB ligado a uma porta desconhecida",
+        "Se o telemóvel perguntar se deve confiar num dispositivo ligado, escolha «apenas carregar»"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 39,
+      "category": "in_person",
+      "title": "Falsos programas de subsídios públicos (painéis solares, bomba de calor, substituição de caldeira)",
+      "description": "Uma chamada, uma visita ao domicílio ou um anúncio online oferece um «subsídio do Estado» para painéis solares, bombas de calor ou substituição de caldeira, em troca de uma taxa de inscrição, dados pessoais ou da assinatura imediata de um contrato.",
+      "warning_signs": [
+        "Pressão para assinar já, «oferta válida só hoje»",
+        "Exigência de um adiantamento ou «taxa de inscrição» em dinheiro antes de qualquer trabalho",
+        "O suposto «funcionário» não sabe indicar o programa real nem apontar uma página de gov.pl"
+      ],
+      "advice": [
+        "Verifique os programas de subsídios apenas em sites oficiais (p. ex. gov.pl, Czyste Powietrze, NFOŚiGW)",
+        "Nunca assine um contrato nem pague um adiantamento sob pressão de tempo",
+        "Fale da oferta com a família ou com a junta/câmara municipal antes de decidir"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "online",
+      "title": "Mensagem «de um número novo» numa aplicação de mensagens",
+      "description": "Um SMS ou mensagem de WhatsApp de um número desconhecido, a dizer ser o seu filho ou neto que «perdeu o telemóvel» e precisa urgentemente de dinheiro numa conta nova.",
+      "warning_signs": [
+        "A mensagem começa com «Olá mãe/pai, sou eu, perdi o telemóvel»",
+        "Um pedido de transferência urgente para um número de conta novo e desconhecido",
+        "O remetente evita uma chamada ou videochamada, alegando um microfone ou câmara avariados"
+      ],
+      "advice": [
+        "Ligue ao seu familiar para o número anterior, que conhece, para verificar",
+        "Não transfira dinheiro até confirmar a identidade por outra via",
+        "Combine antecipadamente com a família uma palavra-passe para estas situações"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 41,
+      "category": "investment",
+      "title": "Construção de confiança a longo prazo que leva a um falso investimento («pig butchering»)",
+      "description": "Um desconhecido que conheceu por uma aplicação de mensagens, um site de encontros ou as redes sociais passa semanas a construir uma amizade ou relação e depois recomenda uma plataforma de criptomoedas «fiável» que mostra lucros falsos e pressiona para depósitos cada vez maiores.",
+      "warning_signs": [
+        "Alguém que só conhece online leva rapidamente a conversa para «ganhar dinheiro juntos»",
+        "Mostra capturas de ecrã de supostos lucros enormes e incentiva-o a depositar numa plataforma desconhecida",
+        "Cada tentativa de levantar fundos esbarra em novas «taxas» que é preciso pagar primeiro"
+      ],
+      "advice": [
+        "Nunca invista dinheiro por recomendação de alguém que só conhece online",
+        "Verifique a plataforma de investimento na lista pública de avisos do seu regulador financeiro nacional",
+        "Corte o contacto e fale com a família se alguém o pressionar a fazer depósitos"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 42,
+      "category": "phone",
+      "title": "Falsa cobrança de dívidas a exigir pagamento imediato",
+      "description": "Uma chamada, SMS ou e-mail de uma suposta empresa de cobranças ou sociedade de advogados diz que tem uma dívida em aberto e ameaça com um oficial de justiça ou uma ação judicial se não pagar de imediato numa conta indicada.",
+      "warning_signs": [
+        "Exigência de pagamento imediato, muitas vezes para uma conta particular ou através de uma ligação num SMS",
+        "Ameaças de oficial de justiça ou tribunal em poucas horas",
+        "O nome da empresa e o número do processo não podem ser verificados em nenhum registo público"
+      ],
+      "advice": [
+        "Não pague «já» por medo — uma cobrança verdadeira é feita por escrito e com tempo para responder",
+        "Verifique você mesmo a empresa de cobranças ou a sociedade de advogados, p. ex. no registo comercial oficial",
+        "Em caso de dúvida, contacte diretamente o credor verdadeiro (p. ex. o seu banco) para um número do site oficial"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 43,
+      "category": "online",
+      "title": "Falso site ou aplicação de marcação de consultas médicas",
+      "description": "Um falso site ou anúncio que imita um sistema de marcação de consultas online, uma clínica ou o fundo nacional de saúde (NFZ) pede-lhe que inicie sessão com os dados do seu homebanking «para verificar a sua identidade» ou que descarregue uma aplicação paga.",
+      "warning_signs": [
+        "A página de marcação pede o utilizador e a palavra-passe do banco em vez do seu perfil de confiança (profil zaufany)",
+        "O endereço web difere do domínio oficial da clínica ou de pacjent.gov.pl",
+        "Exigência de pagamento com cartão para «reservar uma vaga» no sistema de saúde público"
+      ],
+      "advice": [
+        "Marque consultas apenas pelo site oficial da clínica, por telefone ou através de pacjent.gov.pl",
+        "Nunca introduza as credenciais do homebanking num site relacionado com saúde",
+        "Verifique a barra de endereços antes de introduzir qualquer informação"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "in_person",
+      "title": "Venda sob pressão após um «teste gratuito» da qualidade da água ou do ar",
+      "description": "Alguém que diz representar uma empresa oferece um «teste gratuito» da qualidade da água ou do ar da sua casa e depois usa um resultado alarmante e difícil de verificar para o pressionar a comprar de imediato um aparelho caro (filtro, purificador) a crédito ou em prestações.",
+      "warning_signs": [
+        "O «teste» termina com um resultado alarmante, difícil de verificar de forma independente",
+        "O vendedor insiste em assinar «só hoje, com desconto»",
+        "Propõe assinar logo ali, em sua casa, um contrato de crédito ou de pagamento em prestações"
+      ],
+      "advice": [
+        "Peça tempo para pensar e não assine nada sob pressão durante a visita",
+        "Peça uma opinião independente (p. ex. à autoridade de saúde local ou a outro especialista) antes de comprar equipamento caro",
+        "Lembre-se do seu direito de retratação de 14 dias num contrato assinado fora do estabelecimento comercial"
+      ],
+      "risk_level": "medium"
+    }
+  ]
+}

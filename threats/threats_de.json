@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "title": "Wise Guard – Gefahrenkatalog",
+    "description": "Liste der häufigsten Betrugsmaschen und Gefahren mit Warnzeichen und Handlungsempfehlungen. Für jedes Alter relevant – manche Maschen zielen häufiger auf ältere Menschen, andere eher auf jüngere, internetaffine Nutzer.",
+    "version": "0.4.0",
+    "last_updated": "2026-10-06",
+    "language": "de",
+    "disclaimer": "Lehrmaterial. Bei einer echten Gefahr oder dem Verdacht auf Betrug wenden Sie sich an den Notruf (112) oder an Ihre Bank.",
+    "app_name": "Wise Guard"
+  },
+  "categories": [
+    {
+      "id": "phone",
+      "name": "Telefonbetrug"
+    },
+    {
+      "id": "online",
+      "name": "Betrug im Internet"
+    },
+    {
+      "id": "banking",
+      "name": "Bank- und Finanzbetrug"
+    },
+    {
+      "id": "in_person",
+      "name": "Betrug an der Haustür und auf der Straße"
+    },
+    {
+      "id": "mail_delivery",
+      "name": "Post und Paketlieferungen"
+    },
+    {
+      "id": "romance_social",
+      "name": "Beziehungen und soziale Medien"
+    },
+    {
+      "id": "tech_support",
+      "name": "Technischer Support / Computer"
+    },
+    {
+      "id": "government_impersonation",
+      "name": "Vortäuschen von Behörden"
+    },
+    {
+      "id": "investment",
+      "name": "Geldanlagen und Gewinne"
+    },
+    {
+      "id": "abuse",
+      "name": "Missbrauch durch Angehörige / Pflegende"
+    }
+  ],
+  "threats": [
+    {
+      "id": 1,
+      "category": "phone",
+      "title": "Die Masche „falscher Polizist / Staatsanwalt“",
+      "description": "Ein Betrüger gibt sich als Polizist oder Staatsanwalt aus, behauptet, es werde gegen einen Bankmitarbeiter ermittelt, und bittet Sie um „Hilfe“, indem Sie Geld überweisen oder abheben.",
+      "warning_signs": [
+        "Der Anrufer setzt Sie unter Zeitdruck und verlangt Geheimhaltung",
+        "Er bittet Sie, Ihre Familie nicht zu informieren",
+        "Er nennt eine Nummer zum Zurückrufen – die ihm selbst gehört"
+      ],
+      "advice": [
+        "Legen Sie auf und rufen Sie selbst den Notruf 112 oder Ihre örtliche Polizeidienststelle an",
+        "Die Polizei verlangt niemals Überweisungen oder Bargeldabhebungen",
+        "Informieren Sie immer Ihre Familie, bevor Sie eine finanzielle Entscheidung treffen"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 2,
+      "category": "phone",
+      "title": "Die Masche „Enkel / Verwandter“",
+      "description": "Jemand ruft weinend oder mit veränderter Stimme an und behauptet, Ihr Enkel oder Kind zu sein, einen Unfall gehabt zu haben und dringend Geld zu brauchen.",
+      "warning_signs": [
+        "Die Stimme klingt anders, angeblich wegen einer Erkältung",
+        "Es wird eine dringende Überweisung oder die Übergabe von Bargeld an einen Boten verlangt",
+        "Ein Videoanruf wird abgelehnt"
+      ],
+      "advice": [
+        "Rufen Sie die Person unter einer Nummer zurück, die Sie bereits kennen, und überprüfen Sie die Geschichte",
+        "Vereinbaren Sie in der Familie ein Sicherheitspasswort für solche Fälle",
+        "Übergeben Sie niemals Geld unter Zeitdruck"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 3,
+      "category": "phone",
+      "title": "Die Masche „Bankmitarbeiter“",
+      "description": "Ein falscher Bankmitarbeiter warnt vor einem angeblichen Betrugsversuch auf Ihrem Konto und fordert Sie auf, eine Fernwartungs-App (z. B. AnyDesk, TeamViewer) zu installieren oder Freigabecodes zu nennen.",
+      "warning_signs": [
+        "Sie sollen ein Fernwartungsprogramm installieren",
+        "Sie sollen einen SMS-Code oder Ihre Online-Banking-Anmeldedaten nennen",
+        "Die angezeigte Nummer scheint die Ihrer Bank zu sein (Spoofing)"
+      ],
+      "advice": [
+        "Legen Sie auf und rufen Sie die Nummer auf Ihrer Bankkarte oder der offiziellen Website der Bank an",
+        "Installieren Sie niemals Programme auf Wunsch eines Anrufers",
+        "Nennen Sie niemals SMS-Codes, PINs oder Zugangsdaten am Telefon"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 4,
+      "category": "phone",
+      "title": "Falsche Gewinne / Telefon-Gewinnspiele",
+      "description": "Man teilt Ihnen mit, Sie hätten bei einem Gewinnspiel gewonnen, an dem Sie nie teilgenommen haben, um eine „Abholgebühr“ oder Kartendaten zu erschleichen.",
+      "warning_signs": [
+        "Ein Gewinn ohne Teilnahme an einem Gewinnspiel",
+        "Sie sollen für die Abholung des Preises bezahlen",
+        "Zeitdruck („nur heute“)"
+      ],
+      "advice": [
+        "Echte Gewinne erfordern nie eine Vorauszahlung",
+        "Legen Sie auf und ignorieren Sie es",
+        "Geben Sie keine persönlichen Daten oder Kartendaten preis"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 5,
+      "category": "phone",
+      "title": "„Ja“-/„Nein“-Aufnahmen (Sprachbetrug)",
+      "description": "Ein Betrüger provoziert ein „Ja“ oder „Nein“, das aufgezeichnet und später zur Bestätigung angeblicher finanzieller Verpflichtungen benutzt wird.",
+      "warning_signs": [
+        "Eine unbekannte Nummer stellt seltsame, allgemeine Fragen",
+        "Das Gespräch ist sehr kurz und wirkt wie nach Schema"
+      ],
+      "advice": [
+        "Antworten Sie unbekannten Anrufern nicht mit „Ja“/„Nein“ – fragen Sie, wer anruft",
+        "Legen Sie bei Verdacht auf und melden Sie die Nummer",
+        "Gehen Sie am besten nicht an unbekannte ausländische Nummern"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 6,
+      "category": "banking",
+      "title": "Gefälschte SMS zu gesperrtem Konto (Smishing)",
+      "description": "Eine SMS mit einem Link behauptet, Ihr Bankkonto sei gesperrt oder für ein Paket sei eine Nachzahlung fällig, und führt auf eine gefälschte Anmeldeseite.",
+      "warning_signs": [
+        "Ein Link in einer SMS Ihrer „Bank“ oder Ihres „Paketdienstes“",
+        "Zeitdruck und Drohung mit Kontosperrung",
+        "Die Adresse der Seite weicht von der offiziellen ab"
+      ],
+      "advice": [
+        "Tippen Sie keine Links in SMS an – geben Sie die Adresse Ihrer Bank selbst ein",
+        "Prüfen Sie den Paketstatus auf der offiziellen Seite des Paketdienstes",
+        "Melden Sie verdächtige SMS der nationalen Cybersicherheitsbehörde (CERT) oder Ihrer Bank"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 7,
+      "category": "banking",
+      "title": "BLIK-Code-Betrug",
+      "description": "Jemand, der sich als Freund ausgibt (oft über ein gekapertes Facebook-/Messenger-Konto), bittet „kurz“ um einen BLIK-Code und hebt dann Bargeld ab oder bezahlt Einkäufe mit Ihrem Geld.",
+      "warning_signs": [
+        "Die Bitte um einen BLIK-Code von einem Online-„Freund“",
+        "Ein ungewöhnlicher Schreibstil dieser Person",
+        "Eine dringende, untypische Geldforderung"
+      ],
+      "advice": [
+        "Geben Sie niemals einen BLIK-Code an jemanden weiter, auch nicht an Freunde",
+        "Rufen Sie Ihren Freund an und überprüfen Sie die Bitte",
+        "Melden Sie das gekaperte Konto den Betreibern des Dienstes"
+      ],
+      "risk_level": "high",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "banking",
+      "title": "Gefälschte Überweisungsbestätigungen / Phishing-E-Mails im Namen der Bank",
+      "description": "Eine E-Mail, die wie eine Nachricht der Bank aussieht, fordert Sie auf, auf einen Link zu klicken und sich anzumelden, um einen Vorgang zu „bestätigen“.",
+      "warning_signs": [
+        "Der Absender hat eine ähnliche, aber nicht identische E-Mail-Adresse",
+        "Sprachfehler oder ungewöhnliche Formulierungen",
+        "Der Link führt auf eine andere Seite als die der Bank"
+      ],
+      "advice": [
+        "Klicken Sie nicht auf Links in verdächtigen E-Mails",
+        "Geben Sie die Adresse der Bank immer selbst im Browser ein",
+        "Rufen Sie im Zweifel Ihre Bank an"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 9,
+      "category": "banking",
+      "title": "Kartenskimming an Geldautomaten",
+      "description": "Ein am Geldautomaten angebrachtes Gerät kopiert die Kartendaten, während eine winzige Kamera die PIN-Eingabe filmt.",
+      "warning_signs": [
+        "Der Automat sieht ungewöhnlich aus oder hat zusätzliche Teile am Kartenleser",
+        "Das PIN-Feld fühlt sich rau an oder passt nicht richtig",
+        "Jemand steht bei der PIN-Eingabe sehr nah bei Ihnen"
+      ],
+      "advice": [
+        "Verdecken Sie das Tastenfeld mit der Hand, wenn Sie die PIN eingeben",
+        "Nutzen Sie Automaten in Bankfilialen und gut beleuchtete Standorte",
+        "Prüfen Sie regelmäßig den Umsatzverlauf in der Banking-App"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 10,
+      "category": "government_impersonation",
+      "title": "Vortäuschen der Sozialversicherung (ZUS) / des Finanzamts",
+      "description": "Eine Nachricht oder ein Anruf über Rückstände, eine Steuererstattung oder eine Datenaktualisierung, mit der Aufforderung zu persönlichen Daten oder einer Zahlung.",
+      "warning_signs": [
+        "Die Aufforderung, persönliche Daten oder die Kontonummer per Telefon/E-Mail anzugeben",
+        "Ein Link zu einem „offiziellen Formular“ außerhalb von gov.pl",
+        "Drohung mit Geldbußen oder Festnahme, wenn Sie nicht reagieren"
+      ],
+      "advice": [
+        "Behörden fragen nie telefonisch oder per SMS nach Kartendaten",
+        "Prüfen Sie es, indem Sie sich selbst auf gov.pl anmelden",
+        "Rufen Sie im Zweifel die zuständige Behörde an"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "government_impersonation",
+      "title": "Falscher Ableser / Kontrolleur",
+      "description": "Eine Person, die angeblich für das Gas-, Strom- oder Wasserunternehmen arbeitet, verlangt Einlass und eine Zahlung für eine „Kontrolle“ oder einen „Zählertausch“.",
+      "warning_signs": [
+        "Keine vorherige schriftliche Ankündigung des Besuchs",
+        "Es wird sofort eine Barzahlung verlangt",
+        "Weigerung, einen Dienstausweis zu zeigen"
+      ],
+      "advice": [
+        "Lassen Sie sich immer einen Ausweis zeigen und rufen Sie beim Unternehmen an, um den Besuch zu überprüfen",
+        "Echte Kontrollen werden meist schriftlich angekündigt",
+        "Lassen Sie keine Personen herein, die Sie nicht überprüfen können"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 12,
+      "category": "in_person",
+      "title": "Die Masche „Warmwasser / Gas“ an der Haustür",
+      "description": "Jemand bietet eine „sofortige“ Reparatur der Installation, einen Dachanstrich o. Ä. an, verlangt eine Vorauszahlung und erledigt die Arbeit dann schlecht oder gar nicht.",
+      "warning_signs": [
+        "Ein unangekündigter Besuch mit dem Angebot „heute, ich bin gerade in der Nähe“",
+        "Die Forderung nach einer Barzahlung im Voraus",
+        "Druck und Einschüchterung mit einem hohen Reparaturpreis"
+      ],
+      "advice": [
+        "Entscheiden Sie nicht unter Druck – bitten Sie um Bedenkzeit",
+        "Fragen Sie Familie oder einen vertrauenswürdigen Handwerker",
+        "Zahlen Sie erst, wenn die Arbeit erledigt und geprüft ist"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 13,
+      "category": "in_person",
+      "title": "Falscher Spendensammler",
+      "description": "Eine Person an der Tür oder auf der Straße sammelt „für ein krankes Kind“ oder einen anderen Zweck, oft ohne jegliche Unterlagen.",
+      "warning_signs": [
+        "Kein Organisationsausweis oder keine Sammlungsgenehmigung",
+        "Drängen auf eine schnelle Barspende",
+        "Kann die Organisation oder die Sammlungsnummer nicht nennen"
+      ],
+      "advice": [
+        "Prüfen Sie den Spendensammler vor dem Spenden im Internet",
+        "Spenden Sie per Überweisung auf ein geprüftes Konto, nicht bar",
+        "Fühlen Sie sich nicht verpflichtet, sofort zu spenden"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 14,
+      "category": "in_person",
+      "title": "Die Masche „Gas / Wasser – Einlass und Diebstahl“",
+      "description": "Zwei Personen: Eine lenkt Sie ab (z. B. „Zähler ablesen“), die andere durchsucht die Wohnung nach Geld oder Wertsachen.",
+      "warning_signs": [
+        "Zwei Personen, eine bittet Sie, in einem anderen Zimmer etwas zu zeigen",
+        "Ein plötzlicher, nicht vereinbarter „amtlicher“ Besuch",
+        "Ablenkung durch ein Gespräch"
+      ],
+      "advice": [
+        "Lassen Sie Unbekannte nicht ohne vorherige Überprüfung herein",
+        "Bitten Sie einen Nachbarn oder Angehörigen, dabei zu sein",
+        "Bewahren Sie Wertsachen nicht griffbereit auf"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 15,
+      "category": "mail_delivery",
+      "title": "Falsche Paketdienst-Nachzahlung",
+      "description": "Eine SMS oder E-Mail eines „Paketdienstes“ verlangt eine kleine Nachzahlung für ein Paket und führt auf eine gefälschte Zahlungsseite.",
+      "warning_signs": [
+        "Ein Zahlungslink in einer SMS",
+        "Sie haben gar kein Paket bestellt",
+        "Die Adresse der Seite weicht von der offiziellen Seite des Paketdienstes ab"
+      ],
+      "advice": [
+        "Prüfen Sie den Paketstatus direkt auf der Seite des Paketdienstes",
+        "Tippen Sie keine Zahlungslinks in SMS an",
+        "Rufen Sie im Zweifel den Paketdienst an"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 16,
+      "category": "mail_delivery",
+      "title": "Gefälschte Briefe über „unbezahlte Strafen / Rückstände“",
+      "description": "Ein Brief oder eine E-Mail über eine überfällige Zahlung mit der Androhung rechtlicher Folgen und der Forderung einer schnellen Zahlung auf ein bestimmtes Konto.",
+      "warning_signs": [
+        "Rechtliche Drohungen und Zeitdruck",
+        "Eine ungewöhnliche Kontonummer für die Zahlung",
+        "Der Absender lässt sich nicht überprüfen"
+      ],
+      "advice": [
+        "Klären Sie den Fall direkt bei der zuständigen Behörde bzw. dem Gericht",
+        "Zahlen Sie nicht auf das Konto aus einem verdächtigen Brief",
+        "Sprechen Sie vor einer Zahlung mit Familie oder einem Rechtsanwalt"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 17,
+      "category": "online",
+      "title": "Gefälschte Online-Shops / Angebote, die „zu gut, um wahr zu sein“ sind",
+      "description": "Eine Website oder Anzeige bietet Waren zu einem sehr niedrigen Preis an; nach der Zahlung kommt die Ware nie an.",
+      "warning_signs": [
+        "Ein Preis, der weit unter allen anderen liegt",
+        "Zahlung nur per Vorkasse-Überweisung, ohne Käuferschutz",
+        "Keine Kontaktdaten oder Firmenadresse des Verkäufers"
+      ],
+      "advice": [
+        "Lesen Sie vor dem Kauf Bewertungen zum Shop",
+        "Nutzen Sie sichere Zahlungsmethoden (z. B. Nachnahme, geschützte Kartenzahlung)",
+        "Wenn ein Angebot zu gut klingt, ist es wahrscheinlich gefälscht"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 18,
+      "category": "online",
+      "title": "Phishing in sozialen Medien (Facebook/Messenger)",
+      "description": "Eine gefälschte Nachricht eines „Freundes“ mit einem Gewinnspiel-Link oder einer Anmeldeaufforderung, um das Konto zu kapern.",
+      "warning_signs": [
+        "Eine ungewöhnliche Nachricht eines Freundes, z. B. ein Gewinnspiel-Link",
+        "Die Aufforderung, auf einer externen Seite Login und Passwort einzugeben",
+        "Eine Nachricht in einem anderen Stil als gewohnt"
+      ],
+      "advice": [
+        "Tippen Sie keine verdächtigen Links an, auch nicht von Freunden",
+        "Rufen Sie Ihren Freund an und überprüfen Sie die Nachricht",
+        "Aktivieren Sie die Zwei-Faktor-Authentifizierung für Ihre Social-Media-Konten"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 19,
+      "category": "online",
+      "title": "Gefälschte Virenwarnungen (Scareware)",
+      "description": "Ein Pop-up im Browser über einen „Virus“, das Sie auffordert, sofort eine Support-Nummer anzurufen.",
+      "warning_signs": [
+        "Eine alarmierende Meldung mit Ton, die den Bildschirm blockiert",
+        "Eine „Support“-Telefonnummer im Fenster",
+        "Druck, das Fenster nicht zu schließen und sofort anzurufen"
+      ],
+      "advice": [
+        "Schließen Sie den Browser (Alt+F4) oder starten Sie den Computer neu",
+        "Rufen Sie niemals Nummern aus solchen Pop-ups an",
+        "Ein echtes Antivirenprogramm funktioniert nie so"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 20,
+      "category": "tech_support",
+      "title": "Die Masche „Microsoft-/Windows-Support“",
+      "description": "Ein Anruf oder Pop-up eines angeblichen Microsoft-Mitarbeiters über einen Virus, mit der Bitte um Fernzugriff auf den Computer.",
+      "warning_signs": [
+        "Microsoft ruft nie von sich aus an",
+        "Die Bitte, Fernwartungssoftware zu installieren (TeamViewer/AnyDesk)",
+        "Die Forderung, die „Reparatur“ per Karte zu bezahlen"
+      ],
+      "advice": [
+        "Legen Sie auf – es ist immer Betrug",
+        "Installieren Sie niemals Fernwartungsprogramme auf Wunsch von Fremden",
+        "Wenn Sie schon Zugriff gewährt haben, trennen Sie die Internetverbindung und holen Sie sich Hilfe"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 21,
+      "category": "tech_support",
+      "title": "Gefälschtes Update der Banking-App",
+      "description": "Eine SMS oder E-Mail mit einem Link zum „Aktualisieren“ der Banking-App, der in Wirklichkeit Schadsoftware installiert, die Daten abfängt.",
+      "warning_signs": [
+        "Ein Link zu einer .apk-Datei oder einer Seite außerhalb des App-Stores",
+        "Die Aufforderung, außerhalb von Google Play / App Store zu installieren",
+        "Ein ungewöhnlicher Absender der Nachricht"
+      ],
+      "advice": [
+        "Aktualisieren Sie Apps nur über den offiziellen Store (Google Play / App Store)",
+        "Installieren Sie keine Apps über Links in SMS oder E-Mails",
+        "Fragen Sie im Zweifel direkt bei der Bank nach"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 22,
+      "category": "romance_social",
+      "title": "Romance-Scam (Liebesbetrug)",
+      "description": "Eine im Internet kennengelernte Person (oft aus dem Ausland) baut eine emotionale Beziehung auf und bittet dann um Geld für einen „plötzlichen Notfall“ oder eine Reise.",
+      "warning_signs": [
+        "Die Person will sich nie persönlich oder per Video treffen",
+        "Schnelle Liebesbekundungen",
+        "Geldforderungen für verschiedene „dringende“ Anlässe"
+      ],
+      "advice": [
+        "Schicken Sie niemals Geld an jemanden, den Sie nur aus dem Internet kennen",
+        "Sprechen Sie mit Familie oder Freunden über die neue Beziehung",
+        "Prüfen Sie Profilfotos mit der Bildersuche – sie sind oft gestohlen"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 23,
+      "category": "investment",
+      "title": "Gefälschte Krypto- / Handelsplattformen",
+      "description": "Eine Anzeige verspricht hohe, schnelle Renditen; nach der Einzahlung ist das Geld nicht verfügbar, und die „Gewinne“ existieren nur auf einer gefälschten Oberfläche.",
+      "warning_signs": [
+        "Das Versprechen sehr hoher Gewinne bei geringem Risiko",
+        "Druck zu schnellen und immer höheren Einzahlungen",
+        "Schwierigkeiten oder Unmöglichkeit, Geld abzuheben"
+      ],
+      "advice": [
+        "Investieren Sie nicht unter Zeitdruck oder bei „garantierten“ Gewinnversprechen",
+        "Prüfen Sie, ob das Unternehmen registriert ist und von der nationalen Finanzaufsicht beaufsichtigt wird",
+        "Besprechen Sie jede Geldanlage mit Familie oder einem unabhängigen Berater"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 24,
+      "category": "investment",
+      "title": "Gefälschte Jobangebote „von zu Hause verdienen“",
+      "description": "Ein einfaches Homeoffice-Angebot, bei dem eine Vorauszahlung für eine „Schulung“ oder ein „Starterpaket“ verlangt wird.",
+      "warning_signs": [
+        "Vor Arbeitsbeginn muss bezahlt werden",
+        "Sehr hohe Verdienste für minimalen Aufwand",
+        "Kein formeller Arbeits-/Vertragsabschluss"
+      ],
+      "advice": [
+        "Ein echter Arbeitgeber verlangt nie Geld für die Chance zu arbeiten",
+        "Prüfen Sie das Unternehmen im offiziellen Handelsregister, bevor Sie zusammenarbeiten",
+        "Seien Sie vorsichtig bei Angeboten ohne Vertrag"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 25,
+      "category": "banking",
+      "title": "Gefälschte Erstattung / Überzahlung",
+      "description": "Eine Mitteilung über eine angebliche Überzahlung oder Steuererstattung, mit einem Link zu einem Formular, das Kartendaten verlangt.",
+      "warning_signs": [
+        "Eine unerwartete Erstattung, für die Kartendaten nötig sind",
+        "Ein Link zu einer Seite, die einer Behördenseite oder Bank täuschend ähnlich sieht",
+        "Zeitdruck („Erstattung verfällt in 24 Std.“)"
+      ],
+      "advice": [
+        "Steuererstattungen erfordern nie die Eingabe einer Kartennummer im Internet",
+        "Prüfen Sie es, indem Sie sich selbst auf der offiziellen Seite anmelden",
+        "Melden Sie verdächtige Nachrichten Ihrem nationalen CERT oder Ihrer Bank"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 26,
+      "category": "abuse",
+      "title": "Finanzieller Missbrauch durch Pflegende oder Angehörige",
+      "description": "Jemand, der sich um einen nahen Angehörigen kümmert – ein Elternteil, Großelternteil oder jemanden, der (formell oder informell) finanziell von ihm abhängt –, missbraucht den Zugang zum Konto, eine Vollmacht oder Zahlungskarten für eigene Zwecke.",
+      "warning_signs": [
+        "Plötzliche, unerklärliche Änderungen am Konto",
+        "Die pflegende Person isoliert diesen Menschen von anderen Familienmitgliedern",
+        "Druck, eine Vollmacht oder ein Testament zu unterschreiben"
+      ],
+      "advice": [
+        "Behalten Sie die Kontrolle über Ihre Unterlagen und Zugangsdaten",
+        "Bitten Sie eine weitere Vertrauensperson, einen Blick auf die Finanzen zu werfen",
+        "Wenden Sie sich bei Verdacht an die Bank oder an Sozialdienste"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 27,
+      "category": "abuse",
+      "title": "Druck, ein Testament oder eine Vollmacht zu ändern",
+      "description": "Jemand aus dem Umfeld übt psychischen Druck aus, damit ein naher Angehöriger ein Testament ändert, Eigentum überträgt oder eine Kontovollmacht erteilt.",
+      "warning_signs": [
+        "Die plötzliche Aufforderung, wichtige Dokumente „sofort“ zu unterschreiben",
+        "Isolierung von einem Rechtsanwalt oder Notar, der vom Antragsteller unabhängig ist",
+        "Drohungen oder emotionale Erpressung"
+      ],
+      "advice": [
+        "Unterschreiben Sie niemals Dokumente unter Druck",
+        "Wenden Sie sich an einen unabhängigen Notar und lassen Sie sich rechtlich beraten",
+        "Besprechen Sie die Entscheidung mit einer Vertrauensperson außerhalb der Situation"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 28,
+      "category": "online",
+      "title": "Gefälschte QR-Codes (Quishing)",
+      "description": "Ein gefälschter QR-Aufkleber (z. B. an einem Parkscheinautomaten oder auf Werbung) führt auf eine gefälschte Zahlungsseite oder installiert Schadsoftware.",
+      "warning_signs": [
+        "Der QR-Code wirkt wie ein über vorhandene Beschilderung geklebter Aufkleber",
+        "Die gescannte Seite verlangt Kartendaten",
+        "Die Adresse nach dem Scannen ist verdächtig oder gekürzt"
+      ],
+      "advice": [
+        "Prüfen Sie die Adresse der Seite, bevor Sie Daten eingeben",
+        "Vermeiden Sie QR-Zahlungen an unbekannten, unsicheren Orten",
+        "Nutzen Sie im Zweifel die offizielle App statt des QR-Codes"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 29,
+      "category": "phone",
+      "title": "Unbekannte „Ping-Anrufe“ (Wangiri)",
+      "description": "Das Telefon klingelt nur einmal von einer unbekannten, oft ausländischen Nummer; ein Rückruf verursacht hohe Kosten für Mehrwertnummern.",
+      "warning_signs": [
+        "Ein Anruf von einer unbekannten ausländischen Nummer, der nur kurz klingelt",
+        "Die Nummer beginnt mit einer ungewöhnlichen Landesvorwahl",
+        "Starke Neugier, wer angerufen hat"
+      ],
+      "advice": [
+        "Rufen Sie unbekannte ausländische Nummern nicht zurück",
+        "Suchen Sie die Nummer im Internet, bevor Sie zurückrufen",
+        "Sperren Sie die Nummer, wenn sich die Anrufe wiederholen"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 30,
+      "category": "mail_delivery",
+      "title": "Gefälschte Gewinnspiele und Lotterien per Post",
+      "description": "Ein Brief über einen Lotteriegewinn, an der Sie nie teilgenommen haben, mit der Forderung einer „Bearbeitungsgebühr“ für die Auszahlung.",
+      "warning_signs": [
+        "Ein Lotteriegewinn ohne Teilnahme",
+        "Für die Auszahlung des Gewinns muss bezahlt werden",
+        "Der Brief wirkt offiziell, aber der Absender ist unbekannt oder im Ausland"
+      ],
+      "advice": [
+        "Echte Gewinne erfordern nie eine Vorauszahlung",
+        "Ignorieren Sie solche Briefe und antworten Sie nicht",
+        "Fragen Sie im Zweifel Ihre Familie"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 31,
+      "category": "banking",
+      "title": "SIM-Swap (Übernahme der Telefonnummer)",
+      "description": "Ein Betrüger gibt sich als Sie aus und bringt Ihren Mobilfunkanbieter dazu, eine Zweit-SIM-Karte auszustellen oder eine eSIM auf seinem Gerät zu aktivieren – und fängt so die SMS-Codes ab, die Ihre Bank zur Freigabe nutzt.",
+      "warning_signs": [
+        "Plötzlicher, unerklärlicher Verlust des Handyempfangs",
+        "Eine SMS über einen „SIM-Wechsel“ oder eine „eSIM-Aktivierung“, die Sie nie veranlasst haben",
+        "Kein Zugang zur Banking-App, obwohl das Passwort stimmt"
+      ],
+      "advice": [
+        "Wenn Sie plötzlich keinen Empfang mehr haben, kontaktieren Sie Ihren Anbieter auf anderem Weg (z. B. von einem anderen Telefon)",
+        "Bitten Sie Ihren Anbieter um einen zusätzlichen SIM-Schutz (PIN oder Rufnummernmitnahme-Sperre)",
+        "Aktivieren Sie in der Banking-App SMS-/Push-Benachrichtigungen für jede Transaktion"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 32,
+      "category": "online",
+      "title": "Gefälschter Zahlungslink in Marktplatz-Apps (OLX/Vinted/Marketplace)",
+      "description": "Ein Käufer oder Verkäufer schickt einen Link „Zusätzliche Versandkosten bezahlen“, der dem echten Marktplatz täuschend ähnlich sieht und zum Stehlen Ihrer Kartendaten dient.",
+      "warning_signs": [
+        "Der Link führt außerhalb der offiziellen Domain des Marktplatzes",
+        "Druck, schnell zu klicken, bevor das „Angebot verfällt“",
+        "Die Seite verlangt Ihre vollständigen Kartendaten, nicht nur einen Betrag"
+      ],
+      "advice": [
+        "Bezahlen und empfangen Sie Sendungen nur über den offiziellen Ablauf des Marktplatzes, nie über einen Link aus einer Nachricht",
+        "Prüfen Sie die genaue Webadresse, bevor Sie Kartendaten eingeben",
+        "Brechen Sie das Geschäft ab, wenn etwas nicht stimmt"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 33,
+      "category": "online",
+      "title": "Gefälschte SMS zu Maut oder Parkstrafen",
+      "description": "Eine SMS behauptet, Sie schuldeten eine unbezahlte Maut oder Parkstrafe, und enthält einen „Jetzt bezahlen“-Link zu einer gefälschten Zahlungsseite.",
+      "warning_signs": [
+        "Ein verkürzter Link oder eine Domain, die fast, aber nicht ganz offiziell aussieht",
+        "Dringlichkeit („innerhalb von 24 Stunden zahlen, um eine Strafe zu vermeiden“)",
+        "Die Aufforderung, Kartendaten auf einer Seite außerhalb des offiziellen Zahlungssystems einzugeben"
+      ],
+      "advice": [
+        "Prüfen Sie einen offenen Betrag nur in der offiziellen App oder auf der offiziellen Website, nie über einen Link aus einer SMS",
+        "Klicken Sie nicht auf Links in unerwarteten Zahlungs-SMS",
+        "Melden Sie die verdächtige SMS Ihrem Mobilfunkanbieter"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 34,
+      "category": "investment",
+      "title": "Gefälschter „einfacher Job“ – bezahlte Aufgaben und Einzahlungen",
+      "description": "Ein Anwerber, meist auf Telegram oder WhatsApp, bietet Heimarbeit mit einfachen „Aufgaben“ (Likes, Bewertungen) an und verlangt schließlich, dass Sie eigenes Geld einzahlen, um angeblich verdiente Einnahmen „freizuschalten“.",
+      "warning_signs": [
+        "Der Job wird ohne Vorstellungsgespräch und ohne Vertrag angeboten",
+        "Irgendwann sollen ausgerechnet Sie zahlen, um bezahlt zu werden",
+        "Der Kontakt läuft nur über Chat, ohne Möglichkeit, das Unternehmen zu überprüfen"
+      ],
+      "advice": [
+        "Zahlen Sie niemals eigenes Geld, um Einnahmen „freizuschalten“",
+        "Suchen Sie das Unternehmen in einem offiziellen Handelsregister, bevor Sie für es arbeiten",
+        "Brechen Sie den Kontakt ab, sobald Sie irgendetwas bezahlen sollen"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 35,
+      "category": "phone",
+      "title": "Gefälschte Stimme oder gefälschtes Video (KI-Deepfake)",
+      "description": "Ein Betrüger fälscht per KI die Stimme oder das Gesicht eines Familienmitglieds in einem Videoanruf (eine Variante des Enkeltricks) oder täuscht eine bekannte Persönlichkeit vor, die eine Geldanlage empfiehlt.",
+      "warning_signs": [
+        "Video oder Ton wirken leicht unnatürlich (Verzögerung, seltsame Mimik)",
+        "Der Anrufer vermeidet ein längeres, natürliches Gespräch oder legt abrupt auf",
+        "Eine „Promi“-Empfehlung für eine Geldanlage taucht nur in einer Anzeige auf, nie auf den eigenen offiziellen Kanälen der Person"
+      ],
+      "advice": [
+        "Prüfen Sie die Identität, indem Sie etwas fragen, das nur die echte Person weiß",
+        "Vertrauen Sie keinen Video- oder Tonaufnahmen von Prominenten, die Geldanlagen empfehlen – prüfen Sie deren eigene offizielle Kanäle",
+        "Beenden Sie im Zweifel das Gespräch und erreichen Sie die Person auf einem anderen, bereits bekannten Weg"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 36,
+      "category": "in_person",
+      "title": "Mietbetrug (Kaution für eine nicht existierende Wohnung)",
+      "description": "Eine gefälschte Wohnungsanzeige, oft zu einem Preis unter dem Marktniveau, verlangt eine Kaution, bevor Sie die Wohnung gesehen haben; der „Eigentümer“ behauptet, im Ausland zu sein und sie nicht persönlich zeigen zu können.",
+      "warning_signs": [
+        "Der Preis liegt deutlich unter dem Marktniveau",
+        "Der „Eigentümer“ kann die Wohnung nicht persönlich zeigen und verweist auf eine Auslandsreise",
+        "Es wird eine Kaution per Überweisung verlangt, bevor ein Mietvertrag unterschrieben ist"
+      ],
+      "advice": [
+        "Zahlen Sie nie eine Kaution, bevor Sie die Wohnung besichtigt und einen Mietvertrag unterschrieben haben",
+        "Prüfen Sie, ob die Person tatsächlich berechtigt ist, die Immobilie zu vermieten",
+        "Nutzen Sie etablierte Vermietungsplattformen und Makler"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 37,
+      "category": "banking",
+      "title": "Anwerbung als „Finanzagent“ (Geldwäsche)",
+      "description": "Jemand bietet leicht verdientes Geld dafür, dass Sie Ihr Bankkonto zur Verfügung stellen oder eingehende Überweisungen weiterleiten – in Wirklichkeit ist das Geldwäsche, und der Kontoinhaber wird strafrechtlich zur Verantwortung gezogen.",
+      "warning_signs": [
+        "Ein Angebot, Sie für das „Ausleihen“ Ihres Bankkontos oder das Weiterleiten eingehender Überweisungen zu bezahlen",
+        "Das Versprechen schnellen, leichten Geldes ohne Erklärung, woher es stammt",
+        "Druck, extra dafür ein neues Konto zu eröffnen"
+      ],
+      "advice": [
+        "Lassen Sie niemals jemand anderen Ihr Bankkonto nutzen oder Überweisungen auf Wunsch eines Fremden weiterleiten",
+        "Denken Sie daran: Als Kontoinhaber sind Sie rechtlich für diese Transaktionen verantwortlich",
+        "Melden Sie das Angebot der Polizei"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 38,
+      "category": "tech_support",
+      "title": "Datendiebstahl über öffentliches WLAN oder Ladestationen",
+      "description": "Wenn Sie Ihr Handy mit einem ungesicherten öffentlichen WLAN oder einer unbekannten öffentlichen USB-Ladestation verbinden (sogenanntes „Juice Jacking“), können Daten abgefangen oder Schadsoftware installiert werden.",
+      "warning_signs": [
+        "Ein offenes WLAN mit einem Namen, der einem offiziellen stark ähnelt (z. B. „Airport_Free“)",
+        "Eine öffentliche USB-Ladestation, ohne die Möglichkeit, das eigene Netzteil zu nutzen",
+        "Ihr Handy fragt direkt nach dem Einstecken eines Kabels, ob Sie einem unbekannten Gerät „vertrauen“"
+      ],
+      "advice": [
+        "Vermeiden Sie Banking-Apps in ungesicherten öffentlichen WLANs",
+        "Laden Sie an öffentlichen Orten mit dem eigenen Netzteil oder einer Powerbank, nicht über ein USB-Kabel an einem unbekannten Anschluss",
+        "Wenn Ihr Handy fragt, ob es einem angeschlossenen Gerät vertrauen soll, wählen Sie „Nur laden“"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 39,
+      "category": "in_person",
+      "title": "Gefälschte staatliche Förderprogramme (Solaranlage, Wärmepumpe, Heizungstausch)",
+      "description": "Ein Anruf, ein Haustürbesuch oder eine Online-Anzeige bietet eine „staatliche Förderung“ für Solaranlagen, Wärmepumpen oder den Heizungstausch an – im Gegenzug für eine Anmeldegebühr, persönliche Daten oder die sofortige Unterschrift unter einen Vertrag.",
+      "warning_signs": [
+        "Druck, sofort zu unterschreiben, „Angebot nur heute gültig“",
+        "Die Forderung einer Anzahlung oder „Anmeldegebühr“ in bar, bevor irgendeine Arbeit erfolgt",
+        "Der angebliche „Beamte“ kann das tatsächliche Programm nicht nennen oder auf keine gov.pl-Seite verweisen"
+      ],
+      "advice": [
+        "Prüfen Sie Förderprogramme nur auf offiziellen Seiten (z. B. gov.pl, Czyste Powietrze, NFOŚiGW)",
+        "Unterschreiben Sie nie unter Zeitdruck einen Vertrag und zahlen Sie keine Anzahlung",
+        "Besprechen Sie das Angebot vor der Entscheidung mit der Familie oder Ihrer Gemeinde"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "online",
+      "title": "Nachricht „von einer neuen Nummer“ in einer Messenger-App",
+      "description": "Eine SMS- oder WhatsApp-Nachricht von einer unbekannten Nummer, die behauptet, von Ihrem Kind oder Enkel zu stammen, das „sein Handy verloren“ hat und dringend Geld auf ein neues Konto braucht.",
+      "warning_signs": [
+        "Die Nachricht beginnt mit „Hallo Mama/Papa, ich bin's, ich habe mein Handy verloren“",
+        "Eine Bitte um eine dringende Überweisung auf eine neue, unbekannte Kontonummer",
+        "Der Absender vermeidet ein Telefon- oder Videogespräch und verweist auf ein defektes Mikrofon oder eine defekte Kamera"
+      ],
+      "advice": [
+        "Rufen Sie Ihr Familienmitglied unter der bisherigen, bekannten Nummer an, um es zu überprüfen",
+        "Überweisen Sie kein Geld, bevor Sie die Identität auf anderem Weg bestätigt haben",
+        "Vereinbaren Sie vorab ein Familien-Codewort für solche Situationen"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 41,
+      "category": "investment",
+      "title": "Langfristiger Vertrauensaufbau, der zu einer gefälschten Geldanlage führt („Pig Butchering“)",
+      "description": "Ein Fremder, den Sie über eine Messenger-App, ein Dating-Portal oder soziale Medien kennengelernt haben, baut wochenlang eine Freundschaft oder Beziehung auf und empfiehlt dann eine „zuverlässige“ Krypto-Plattform mit gefälschten Gewinnen und drängt auf immer größere Einzahlungen.",
+      "warning_signs": [
+        "Jemand, den Sie nur online kennen, lenkt das Gespräch schnell auf „gemeinsam Geld verdienen“",
+        "Er zeigt Screenshots angeblich riesiger Gewinne und drängt Sie zur Einzahlung auf einer unbekannten Plattform",
+        "Jeder Auszahlungsversuch stößt auf neue „Gebühren“, die zuerst bezahlt werden müssen"
+      ],
+      "advice": [
+        "Investieren Sie niemals Geld auf Empfehlung von jemandem, den Sie nur online kennen",
+        "Prüfen Sie die Anlageplattform anhand der öffentlichen Warnliste Ihrer nationalen Finanzaufsicht",
+        "Brechen Sie den Kontakt ab und sprechen Sie mit Ihrer Familie, wenn jemand Sie zu Einzahlungen drängt"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 42,
+      "category": "phone",
+      "title": "Falsche Inkassoforderung mit sofortiger Zahlungsaufforderung",
+      "description": "Ein Anruf, eine SMS oder E-Mail eines angeblichen Inkassounternehmens oder einer Anwaltskanzlei behauptet, Sie hätten offene Schulden, und droht mit Gerichtsvollzieher oder Klage, wenn Sie nicht sofort auf ein angegebenes Konto zahlen.",
+      "warning_signs": [
+        "Forderung einer sofortigen Zahlung, oft auf ein Privatkonto oder über einen Link in einer SMS",
+        "Drohungen mit Gerichtsvollzieher oder Gericht innerhalb weniger Stunden",
+        "Firmenname und Aktenzeichen lassen sich in keinem öffentlichen Register überprüfen"
+      ],
+      "advice": [
+        "Zahlen Sie nicht „sofort“ aus Angst – echtes Inkasso erfolgt schriftlich und mit Zeit zur Antwort",
+        "Prüfen Sie das Inkassounternehmen oder die Kanzlei selbst, z. B. im offiziellen Handelsregister",
+        "Wenden Sie sich im Zweifel direkt an den eigentlichen Gläubiger (z. B. Ihre Bank) unter einer Nummer von dessen offizieller Website"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 43,
+      "category": "online",
+      "title": "Gefälschte Website oder App zur Arzttermin-Buchung",
+      "description": "Eine gefälschte Website oder Anzeige gibt sich als Online-Terminvergabe, Praxis oder nationale Krankenkasse (NFZ) aus und verlangt, dass Sie sich „zur Identitätsprüfung“ mit Ihren Online-Banking-Daten anmelden oder eine kostenpflichtige App herunterladen.",
+      "warning_signs": [
+        "Die Buchungsseite verlangt Ihren Bank-Login und Ihr Passwort statt Ihres vertrauenswürdigen Profils (profil zaufany)",
+        "Die Webadresse weicht von der offiziellen Domain der Praxis oder von pacjent.gov.pl ab",
+        "Die Forderung einer Kartenzahlung für die „Reservierung eines Termins“ im öffentlichen Gesundheitssystem"
+      ],
+      "advice": [
+        "Buchen Sie Arzttermine nur über die offizielle Seite der Praxis, telefonisch oder über pacjent.gov.pl",
+        "Geben Sie Ihre Online-Banking-Zugangsdaten niemals auf einer Gesundheitswebsite ein",
+        "Prüfen Sie die Adressleiste, bevor Sie irgendwelche Angaben machen"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "in_person",
+      "title": "Aggressiver Verkauf nach einem „kostenlosen“ Wasser- oder Luftqualitätstest",
+      "description": "Jemand, der sich als Vertreter einer Firma ausgibt, bietet einen „kostenlosen Test“ der Wasser- oder Luftqualität in Ihrer Wohnung an und drängt Sie dann mit einem alarmierenden, kaum überprüfbaren Ergebnis zum sofortigen Kauf eines teuren Geräts (Filter, Luftreiniger) auf Kredit oder Raten.",
+      "warning_signs": [
+        "Der „Test“ endet mit einem alarmierenden Ergebnis, das sich kaum unabhängig überprüfen lässt",
+        "Der Verkäufer drängt auf eine Unterschrift „nur heute, mit Rabatt“",
+        "Er bietet an, gleich vor Ort in Ihrer Wohnung einen Kredit- oder Ratenvertrag zu unterschreiben"
+      ],
+      "advice": [
+        "Bitten Sie um Bedenkzeit und unterschreiben Sie während des Besuchs nichts unter Druck",
+        "Holen Sie vor dem Kauf teurer Geräte eine unabhängige Meinung ein (z. B. vom örtlichen Gesundheitsamt oder einem anderen Fachmann)",
+        "Denken Sie an Ihr Recht, einen außerhalb der Geschäftsräume geschlossenen Vertrag innerhalb von 14 Tagen zu widerrufen"
+      ],
+      "risk_level": "medium"
+    }
+  ]
+}

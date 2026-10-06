@@ -2,10 +2,10 @@
   "meta": {
     "title": "Wise Guard – threat catalog",
     "description": "List of the most common fraud methods and threats, with warning signs and recommended actions. Relevant at any age — some methods target older people more often, others target younger, more online-native users.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "last_updated": "2026-10-06",
     "language": "en",
-    "disclaimer": "Educational material. In case of a real threat or suspected fraud, contact the police (997/112) or your bank.",
+    "disclaimer": "Educational material. In case of a real threat or suspected fraud, contact the emergency services (112) or your bank.",
     "app_name": "Wise Guard"
   },
   "categories": [
@@ -148,7 +148,7 @@
       "advice": [
         "Do not tap links in SMS messages — type your bank's address yourself",
         "Check parcel status on the courier's official site",
-        "Report suspicious SMS to CERT Polska at 8080"
+        "Report suspicious SMS to your national cybersecurity authority (CERT) or to your bank"
       ],
       "risk_level": "high"
     },
@@ -167,7 +167,10 @@
         "Call your friend to verify the request",
         "Report the hijacked account to the service administrators"
       ],
-      "risk_level": "high"
+      "risk_level": "high",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 8,
@@ -218,7 +221,10 @@
         "Verify by logging in yourself at gov.pl",
         "If in doubt, call the relevant office"
       ],
-      "risk_level": "medium"
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 11,
@@ -436,7 +442,7 @@
       ],
       "advice": [
         "Do not invest under time pressure or \"guaranteed\" profit promises",
-        "Check whether the firm is supervised by the KNF",
+        "Check whether the firm is registered and supervised by your national financial regulator",
         "Consult family or an independent adviser on every investment"
       ],
       "risk_level": "high"
@@ -453,7 +459,7 @@
       ],
       "advice": [
         "A real employer never charges for the chance to work",
-        "Check the company in KRS/CEIDG before cooperating",
+        "Check the company in the official business registry before cooperating",
         "Be wary of offers without a contract"
       ],
       "risk_level": "medium"
@@ -465,13 +471,13 @@
       "description": "A notice of an alleged overpayment or tax refund, with a link to a form requiring card details.",
       "warning_signs": [
         "An unexpected refund requiring card details",
-        "A link to a page deceptively similar to gov.pl or a bank",
+        "A link to a page deceptively similar to an official government site or a bank",
         "Time pressure (\"refund expires in 24h\")"
       ],
       "advice": [
         "Tax refunds never require entering a card number online",
         "Verify by logging in yourself on the official site",
-        "Report suspicious messages to CERT Polska (8080)"
+        "Report suspicious messages to your national CERT or to your bank"
       ],
       "risk_level": "medium"
     },
@@ -711,7 +717,10 @@
         "Never sign a contract or pay a deposit under time pressure",
         "Discuss the offer with family or your local council before deciding"
       ],
-      "risk_level": "medium"
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 40,
@@ -742,7 +751,7 @@
       ],
       "advice": [
         "Never invest money on the recommendation of someone you've only met online",
-        "Check the investment platform against the KNF (Polish Financial Supervision Authority) public warning list",
+        "Check the investment platform against your national financial regulator's public warning list",
         "Stop contact and talk to family if someone is pressuring you to make financial deposits"
       ],
       "risk_level": "high"
@@ -759,7 +768,7 @@
       ],
       "advice": [
         "Don't pay “right now” out of fear — real debt collection is done in writing with time to respond",
-        "Verify the debt collection agency or law firm yourself, e.g. in the KRS register",
+        "Verify the debt collection agency or law firm yourself, e.g. in the official business registry",
         "If in doubt, contact the actual creditor (e.g. your bank) directly using a number from their official website"
       ],
       "risk_level": "medium"
@@ -779,7 +788,10 @@
         "Never enter your online banking login on a health-related website",
         "Check the address bar before entering any information"
       ],
-      "risk_level": "medium"
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 44,
@@ -793,7 +805,7 @@
       ],
       "advice": [
         "Ask for time to think it over and don't sign anything under pressure during the visit",
-        "Get an independent opinion (e.g. from sanepid or another specialist) before buying expensive equipment",
+        "Get an independent opinion (e.g. from the local health inspectorate or another specialist) before buying expensive equipment",
         "Remember your right to cancel a contract signed away from the business premises within 14 days"
       ],
       "risk_level": "medium"

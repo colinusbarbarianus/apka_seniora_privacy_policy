@@ -2,7 +2,7 @@
   "meta": {
     "title": "Nie daj się – katalog zagrożeń",
     "description": "Lista najczęstszych metod oszustw i zagrożeń wraz z sygnałami ostrzegawczymi i zaleceniami postępowania. Dotyczy każdego, niezależnie od wieku – część metod częściej celuje w osoby starsze, inne bardziej w młodszych użytkowników internetu.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "last_updated": "2026-10-06",
     "language": "pl",
     "disclaimer": "Materiał edukacyjny. W razie realnego zagrożenia lub podejrzenia oszustwa skontaktuj się z policją (997/112) lub swoim bankiem.",
@@ -167,7 +167,10 @@
         "Zadzwoń do znajomego, żeby zweryfikować prośbę",
         "Zgłoś przejęte konto administracji serwisu"
       ],
-      "risk_level": "high"
+      "risk_level": "high",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 8,
@@ -218,7 +221,10 @@
         "Sprawdź informację, logując się samodzielnie na stronie gov.pl",
         "W razie wątpliwości zadzwoń do właściwego urzędu"
       ],
-      "risk_level": "medium"
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 11,
@@ -711,7 +717,10 @@
         "Nigdy nie podpisuj umowy ani nie płać zaliczki pod presją czasu",
         "Przed podjęciem decyzji skonsultuj ofertę z rodziną lub lokalnym urzędem gminy"
       ],
-      "risk_level": "medium"
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 40,
@@ -779,7 +788,10 @@
         "Nigdy nie podawaj danych logowania do bankowości na stronie związanej ze zdrowiem",
         "Sprawdź adres strony w pasku przeglądarki, zanim wpiszesz jakiekolwiek dane"
       ],
-      "risk_level": "medium"
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
     },
     {
       "id": 44,

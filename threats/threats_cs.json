@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "title": "Wise Guard – katalog hrozeb",
+    "description": "Seznam nejčastějších podvodů a hrozeb s varovnými signály a doporučeným postupem. Týká se každého bez ohledu na věk – některé metody častěji míří na seniory, jiné spíše na mladší uživatele internetu.",
+    "version": "0.4.0",
+    "last_updated": "2026-10-06",
+    "language": "cs",
+    "disclaimer": "Vzdělávací materiál. V případě skutečného nebezpečí nebo podezření na podvod kontaktujte tísňovou linku (112) nebo svou banku.",
+    "app_name": "Wise Guard"
+  },
+  "categories": [
+    {
+      "id": "phone",
+      "name": "Telefonní podvody"
+    },
+    {
+      "id": "online",
+      "name": "Internetové podvody"
+    },
+    {
+      "id": "banking",
+      "name": "Bankovní / finanční podvody"
+    },
+    {
+      "id": "in_person",
+      "name": "Podvody tváří v tvář (u dveří/na ulici)"
+    },
+    {
+      "id": "mail_delivery",
+      "name": "Pošta a doručování"
+    },
+    {
+      "id": "romance_social",
+      "name": "Vztahy a sociální sítě"
+    },
+    {
+      "id": "tech_support",
+      "name": "Technická podpora / počítač"
+    },
+    {
+      "id": "government_impersonation",
+      "name": "Vydávání se za úřady"
+    },
+    {
+      "id": "investment",
+      "name": "Investice a výdělky"
+    },
+    {
+      "id": "abuse",
+      "name": "Zneužívání ze strany příbuzných / pečovatelů"
+    }
+  ],
+  "threats": [
+    {
+      "id": 1,
+      "category": "phone",
+      "title": "Podvod „falešný policista / státní zástupce“",
+      "description": "Podvodník se vydává za policistu nebo státního zástupce, tvrdí, že probíhá vyšetřování proti zaměstnanci banky, a žádá vás o „pomoc“ převodem nebo výběrem peněz.",
+      "warning_signs": [
+        "Volající na vás naléhá, abyste jednali rychle a v tajnosti",
+        "Žádá, abyste nic neříkali rodině",
+        "Dá vám číslo ke zpětnému zavolání, které patří jemu"
+      ],
+      "advice": [
+        "Zavěste a sami zavolejte na 112 nebo na svou místní policejní služebnu",
+        "Policie nikdy nežádá o převody ani výběry hotovosti",
+        "Před každým finančním rozhodnutím vždy informujte rodinu"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 2,
+      "category": "phone",
+      "title": "Podvod „vnuk / příbuzný“",
+      "description": "Někdo volá s pláčem nebo změněným hlasem, tvrdí, že je váš vnuk nebo dítě, měl nehodu a naléhavě potřebuje peníze.",
+      "warning_signs": [
+        "Hlas zní jinak, což omlouvá nachlazením",
+        "Žádá se naléhavý převod nebo předání hotovosti kurýrovi",
+        "Odmítají videohovor"
+      ],
+      "advice": [
+        "Zavolejte dané osobě zpět na číslo, které už znáte, a ověřte si to",
+        "Dohodněte si v rodině bezpečnostní heslo pro takové situace",
+        "Nikdy nepředávejte peníze pod časovým tlakem"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 3,
+      "category": "phone",
+      "title": "Podvod „zaměstnanec banky“",
+      "description": "Falešný zaměstnanec banky vás varuje před údajným pokusem o podvod na vašem účtu a nařizuje vám nainstalovat aplikaci pro vzdálený přístup (např. AnyDesk, TeamViewer) nebo sdělit autorizační kódy.",
+      "warning_signs": [
+        "Žádají, abyste nainstalovali program pro vzdálený přístup",
+        "Žádají SMS kód nebo přihlašovací údaje do internetového bankovnictví",
+        "Zobrazené číslo vypadá jako číslo vaší banky (falšování čísla)"
+      ],
+      "advice": [
+        "Zavěste a zavolejte na číslo uvedené na vaší platební kartě nebo na oficiálních stránkách banky",
+        "Nikdy neinstalujte programy na žádost volajícího",
+        "Nikdy nesdělujte po telefonu SMS kódy, PIN ani přihlašovací údaje"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 4,
+      "category": "phone",
+      "title": "Falešné výhry / telefonické loterie",
+      "description": "Řeknou vám, že jste vyhráli soutěž, do které jste se nikdy nepřihlásili, aby z vás vymámili „poplatek za vyzvednutí“ nebo údaje o kartě.",
+      "warning_signs": [
+        "Výhra, aniž byste se účastnili soutěže",
+        "Za vyzvednutí výhry musíte platit",
+        "Časový tlak („jen dnes“)"
+      ],
+      "advice": [
+        "Skutečné výhry nikdy nevyžadují platbu předem",
+        "Zavěste a ignorujte to",
+        "Neuvádějte osobní údaje ani údaje o kartě"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 5,
+      "category": "phone",
+      "title": "Nahrávky „ano / ne“ (hlasový podvod)",
+      "description": "Podvodník vyprovokuje „ano“ nebo „ne“, které se nahraje a později použije k potvrzení údajných finančních závazků.",
+      "warning_signs": [
+        "Neznámé číslo klade zvláštní, obecné otázky",
+        "Hovor je velmi krátký a podle scénáře"
+      ],
+      "advice": [
+        "Neznámým číslům neodpovídejte „ano“/„ne“ – zeptejte se, kdo volá",
+        "Při podezření zavěste a číslo nahlaste",
+        "Zvažte, že neznámá zahraniční čísla nebudete zvedat"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 6,
+      "category": "banking",
+      "title": "Falešné SMS o zablokovaném účtu (smishing)",
+      "description": "SMS s odkazem tvrdí, že váš bankovní účet je zablokovaný nebo že balík vyžaduje doplatek, a vede na falešnou přihlašovací stránku.",
+      "warning_signs": [
+        "Odkaz v SMS od vaší „banky“ nebo „kurýrní společnosti“",
+        "Časový tlak a hrozba zablokováním účtu",
+        "Adresa stránky se liší od oficiální"
+      ],
+      "advice": [
+        "Neklepejte na odkazy v SMS – adresu své banky zadejte sami",
+        "Stav zásilky ověřte na oficiálním webu přepravce",
+        "Podezřelé SMS nahlaste národnímu úřadu pro kybernetickou bezpečnost (CERT) nebo své bance"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 7,
+      "category": "banking",
+      "title": "Podvod s kódem BLIK",
+      "description": "Někdo, kdo se vydává za přítele (často z přeřízeného účtu na Facebooku/Messengeru), vás „na chvilku“ požádá o kód BLIK a pak vybere hotovost nebo nakupuje za vaše peníze.",
+      "warning_signs": [
+        "Žádost o kód BLIK od „přítele“ online",
+        "Neobvyklý styl psaní této osoby",
+        "Naléhavá žádost o peníze, která je nezvyklá"
+      ],
+      "advice": [
+        "Kód BLIK nikdy nikomu nesdělujte, ani přátelům",
+        "Zavolejte příteli a žádost ověřte",
+        "Napadený účet nahlaste správcům služby"
+      ],
+      "risk_level": "high",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "banking",
+      "title": "Falešná potvrzení převodu / phishingové e-maily jménem banky",
+      "description": "E-mail vypadající jako zpráva z banky vás vyzývá, abyste klikli na odkaz a přihlásili se k „potvrzení“ operace.",
+      "warning_signs": [
+        "Odesílatel má podobnou, ale ne stejnou e-mailovou adresu",
+        "Jazykové chyby nebo neobvyklé formulace",
+        "Odkaz vede na jinou stránku, než je stránka banky"
+      ],
+      "advice": [
+        "Neklikejte na odkazy v podezřelých e-mailech",
+        "Adresu banky vždy zadejte sami do prohlížeče",
+        "V případě pochybností zavolejte své bance"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 9,
+      "category": "banking",
+      "title": "Kopírování karet u bankomatů (skimming)",
+      "description": "Zařízení umístěné na bankomatu kopíruje údaje z karty, zatímco drobná kamera snímá zadávání PIN kódu.",
+      "warning_signs": [
+        "Bankomat vypadá neobvykle nebo má u čtečky navíc nějaké části",
+        "Klávesnice na PIN je na dotek drsná nebo špatně sedí",
+        "Někdo stojí velmi blízko, když zadáváte PIN"
+      ],
+      "advice": [
+        "Při zadávání PIN kódu zakryjte klávesnici rukou",
+        "Používejte bankomaty uvnitř poboček a na dobře osvětlených místech",
+        "Pravidelně kontrolujte historii transakcí v bankovní aplikaci"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 10,
+      "category": "government_impersonation",
+      "title": "Vydávání se za ZUS (polskou sociální pojišťovnu) / finanční úřad",
+      "description": "Zpráva nebo hovor o nedoplatcích, vrácení daně nebo aktualizaci údajů, který žádá o osobní údaje nebo platbu.",
+      "warning_signs": [
+        "Žádost o osobní údaje nebo číslo účtu telefonicky/e-mailem",
+        "Odkaz na „oficiální formulář“ mimo gov.pl",
+        "Hrozba pokutou nebo zatčením, pokud nezareagujete"
+      ],
+      "advice": [
+        "Úřady nikdy nežádají údaje o kartě telefonicky ani SMS",
+        "Ověřte si to tak, že se sami přihlásíte na gov.pl",
+        "V případě pochybností zavolejte na příslušný úřad"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "government_impersonation",
+      "title": "Falešný čtenář měřičů / kontrolor",
+      "description": "Osoba, která tvrdí, že pracuje pro plynárenskou, energetickou nebo vodárenskou společnost, vyžaduje vstup a platbu za „kontrolu“ nebo „výměnu měřiče“.",
+      "warning_signs": [
+        "Žádné předchozí písemné oznámení návštěvy",
+        "Požaduje se okamžitá platba v hotovosti",
+        "Odmítnutí ukázat služební průkaz"
+      ],
+      "advice": [
+        "Vždy požádejte o průkaz a zavolejte do společnosti, abyste návštěvu ověřili",
+        "Skutečné kontroly se obvykle oznamují dopisem",
+        "Nevpouštějte lidi, které nemůžete ověřit"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 12,
+      "category": "in_person",
+      "title": "Podvod s opravou „teplé vody / plynu“ u dveří",
+      "description": "Někdo nabízí „okamžitou“ opravu instalace, nátěr střechy a podobně, požaduje platbu předem a pak práci odvede špatně nebo vůbec.",
+      "warning_signs": [
+        "Nevyžádaná návštěva s nabídkou oprav „dnes, jsem tu náhodou poblíž“",
+        "Požadavek na platbu v hotovosti předem",
+        "Tlak a zastrašování vysokou cenou opravy"
+      ],
+      "advice": [
+        "Nerozhodujte se pod tlakem – požádejte o čas na rozmyšlenou",
+        "Poraďte se s rodinou nebo důvěryhodným řemeslníkem",
+        "Platte až po dokončení a zkontrolování práce"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 13,
+      "category": "in_person",
+      "title": "Falešný sběrač příspěvků",
+      "description": "Osoba u dveří nebo na ulici vybírá „pro nemocné dítě“ nebo jiný účel, často bez jakýchkoli dokladů.",
+      "warning_signs": [
+        "Žádný průkaz organizace ani povolení ke sbírce",
+        "Naléhání na rychlý příspěvek v hotovosti",
+        "Nedokáže uvést organizaci ani číslo sbírky"
+      ],
+      "advice": [
+        "Před darováním sbírku ověřte na internetu",
+        "Přispívejte převodem na ověřený účet, ne v hotovosti",
+        "Nepociťujte povinnost darovat okamžitě"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 14,
+      "category": "in_person",
+      "title": "Podvod „plyn / voda – vstup a krádež“",
+      "description": "Dvě osoby: jedna vás zaměstnává (např. „kontrola měřiče“), druhá mezitím v bytě hledá peníze nebo cennosti.",
+      "warning_signs": [
+        "Dvě osoby, jedna vás žádá, abyste jí něco ukázali v jiné místnosti",
+        "Náhlá, nedomluvená „úřední“ návštěva",
+        "Odvádění pozornosti rozhovorem"
+      ],
+      "advice": [
+        "Nevpouštějte neznámé osoby bez předchozího ověření",
+        "Požádejte souseda nebo příbuzného, aby byl přítomen",
+        "Cennosti nenechávejte na dosah"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 15,
+      "category": "mail_delivery",
+      "title": "Falešný doplatek od přepravce",
+      "description": "SMS nebo e-mail od „kurýrní společnosti“ požaduje malý doplatek za balík a vede na falešnou platební stránku.",
+      "warning_signs": [
+        "Platební odkaz v SMS",
+        "Žádný balík jste si neobjednali",
+        "Adresa stránky se liší od oficiálního webu přepravce"
+      ],
+      "advice": [
+        "Stav zásilky ověřte přímo na webu přepravce",
+        "Neklepejte na platební odkazy v SMS",
+        "V případě pochybností zavolejte přepravci"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 16,
+      "category": "mail_delivery",
+      "title": "Falešné dopisy o „nezaplacené pokutě / nedoplatku“",
+      "description": "Dopis nebo e-mail o opožděné platbě s hrozbou právních následků, který vyžaduje rychlou platbu na uvedený účet.",
+      "warning_signs": [
+        "Právní výhrůžky a časový tlak",
+        "Neobvyklé číslo účtu pro platbu",
+        "Odesílatele nelze ověřit"
+      ],
+      "advice": [
+        "Věc ověřte přímo u příslušného úřadu nebo soudu",
+        "Neplaťte na účet uvedený v podezřelém dopise",
+        "Před platbou se poraďte s rodinou nebo právníkem"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 17,
+      "category": "online",
+      "title": "Falešné e-shopy / nabídky „příliš dobré, aby byly pravdivé“",
+      "description": "Web nebo inzerát nabízí zboží za velmi nízkou cenu; po zaplacení zboží nikdy nedorazí.",
+      "warning_signs": [
+        "Cena mnohem nižší než kdekoli jinde",
+        "Platba pouze běžným převodem, bez ochrany platby",
+        "Žádné kontaktní údaje prodejce ani adresa firmy"
+      ],
+      "advice": [
+        "Před nákupem si přečtěte hodnocení e-shopu",
+        "Používejte bezpečné platební metody (např. dobírku, chráněnou platbu kartou)",
+        "Pokud nabídka vypadá příliš dobře, je pravděpodobně falešná"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 18,
+      "category": "online",
+      "title": "Phishing na sociálních sítích (Facebook/Messenger)",
+      "description": "Falešná zpráva od „přítele“ s odkazem na soutěž nebo žádostí o přihlášení, která slouží k převzetí účtu.",
+      "warning_signs": [
+        "Neobvyklá zpráva od přítele, např. odkaz na soutěž",
+        "Žádost o přihlašovací jméno a heslo na externí stránce",
+        "Zpráva napsaná jiným stylem než obvykle"
+      ],
+      "advice": [
+        "Neklepejte na podezřelé odkazy, ani od přátel",
+        "Zavolejte příteli a zprávu ověřte",
+        "Zapněte u svých účtů na sociálních sítích dvoufázové ověření"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 19,
+      "category": "online",
+      "title": "Falešná upozornění na viry (scareware)",
+      "description": "Vyskakovací okno v prohlížeči o „viru“, které vyžaduje okamžité zavolání na číslo podpory.",
+      "warning_signs": [
+        "Alarmující zpráva se zvukem, která blokuje obrazovku",
+        "Telefonní číslo „podpory“ v okně",
+        "Tlak, abyste okno nezavírali a ihned volali"
+      ],
+      "advice": [
+        "Zavřete prohlížeč (Alt+F4) nebo restartujte počítač",
+        "Nikdy nevolejte čísla z takových oken",
+        "Skutečný antivirus takto nikdy nefunguje"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 20,
+      "category": "tech_support",
+      "title": "Podvod „podpora Microsoftu / Windows“",
+      "description": "Hovor nebo vyskakovací okno od údajného zaměstnance Microsoftu o viru s žádostí o vzdálený přístup k počítači.",
+      "warning_signs": [
+        "Microsoft nikdy nevolá z vlastní iniciativy",
+        "Žádost o instalaci softwaru pro vzdálený přístup (TeamViewer/AnyDesk)",
+        "Požadavek zaplatit za „opravu“ kartou"
+      ],
+      "advice": [
+        "Zavěste – je to vždy podvod",
+        "Nikdy neinstalujte programy pro vzdálený přístup na žádost cizího člověka",
+        "Pokud jste už přístup poskytli, odpojte se od internetu a požádejte někoho o pomoc"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 21,
+      "category": "tech_support",
+      "title": "Falešná aktualizace bankovní aplikace",
+      "description": "SMS nebo e-mail s odkazem na „aktualizaci“ bankovní aplikace, která ve skutečnosti nainstaluje škodlivý software zachytávající údaje.",
+      "warning_signs": [
+        "Odkaz na soubor .apk nebo stránku mimo obchod s aplikacemi",
+        "Žádost o instalaci mimo Google Play / App Store",
+        "Neobvyklý odesílatel zprávy"
+      ],
+      "advice": [
+        "Aplikace aktualizujte pouze přes oficiální obchod (Google Play / App Store)",
+        "Neinstalujte aplikace z odkazů v SMS nebo e-mailech",
+        "V případě pochybností se zeptejte přímo banky"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 22,
+      "category": "romance_social",
+      "title": "Romantický podvod",
+      "description": "Osoba poznaná na internetu (často se vydává za někoho ze zahraničí) naváže citový vztah a pak žádá peníze na „náhlou nouzi“ nebo cestu.",
+      "warning_signs": [
+        "Osoba se nikdy nechce setkat osobně ani přes video",
+        "Rychlá vyznání lásky",
+        "Žádosti o peníze na různé „naléhavé“ potřeby"
+      ],
+      "advice": [
+        "Nikdy neposílejte peníze někomu, koho znáte jen z internetu",
+        "Promluvte si o novém vztahu s rodinou nebo přáteli",
+        "Profilové fotky ověřte vyhledáváním obrázků – bývají ukradené"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 23,
+      "category": "investment",
+      "title": "Falešné kryptoplatformy / obchodní platformy",
+      "description": "Reklama slibuje vysoké, rychlé zhodnocení; po vložení peněz jsou prostředky nedostupné a „zisky“ existují jen na falešném přehledu.",
+      "warning_signs": [
+        "Slib velmi vysokých zisků s nízkým rizikem",
+        "Tlak na rychlé a stále vyšší vklady",
+        "Obtížné nebo nemožné vybrání prostředků"
+      ],
+      "advice": [
+        "Neinvestujte pod časovým tlakem ani při slibech „zaručeného“ zisku",
+        "Ověřte, zda je firma registrována a pod dohledem národního finančního regulátora",
+        "Každou investici konzultujte s rodinou nebo nezávislým poradcem"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 24,
+      "category": "investment",
+      "title": "Falešné nabídky práce „vydělávejte z domova“",
+      "description": "Nabídka snadné práce na dálku, která vyžaduje poplatek předem za „školení“ nebo „startovací balíček“.",
+      "warning_signs": [
+        "Před zahájením práce se požaduje platba",
+        "Velmi vysoký výdělek za minimální úsilí",
+        "Žádná formální pracovní smlouva ani dohoda"
+      ],
+      "advice": [
+        "Skutečný zaměstnavatel nikdy nevybírá peníze za možnost pracovat",
+        "Před spoluprací firmu ověřte v oficiálním obchodním rejstříku",
+        "Buďte opatrní u nabídek bez smlouvy"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 25,
+      "category": "banking",
+      "title": "Falešné vrácení peněz / přeplatek",
+      "description": "Oznámení o údajném přeplatku nebo vrácení daně s odkazem na formulář, který vyžaduje údaje o kartě.",
+      "warning_signs": [
+        "Neočekávané vrácení peněz, které vyžaduje údaje o kartě",
+        "Odkaz na stránku klamavě podobnou oficiálnímu webu úřadu nebo bance",
+        "Časový tlak („vrácení propadne za 24 hodin“)"
+      ],
+      "advice": [
+        "Vrácení daně nikdy nevyžaduje zadání čísla karty online",
+        "Ověřte si to tak, že se sami přihlásíte na oficiálním webu",
+        "Podezřelé zprávy nahlaste svému národnímu CERT nebo své bance"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 26,
+      "category": "abuse",
+      "title": "Finanční zneužívání ze strany pečovatele nebo příbuzného",
+      "description": "Někdo, kdo pečuje o blízkého příbuzného – rodiče, prarodiče nebo kohokoli, kdo je na něm finančně závislý (formálně či neformálně) –, zneužívá přístup k účtu, plnou moc nebo platební karty pro vlastní potřeby.",
+      "warning_signs": [
+        "Náhlé, nevysvětlené změny na účtu",
+        "Pečovatel izoluje tuto osobu od ostatních členů rodiny",
+        "Tlak na podepsání plné moci nebo závěti"
+      ],
+      "advice": [
+        "Mějte pod kontrolou své dokumenty a přihlašovací údaje",
+        "Požádejte jinou důvěryhodnou osobu, aby se podívala na finance",
+        "Při podezření kontaktujte banku nebo sociální služby"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 27,
+      "category": "abuse",
+      "title": "Nátlak na změnu závěti nebo plné moci",
+      "description": "Někdo z okolí vyvíjí psychický nátlak, aby blízký příbuzný změnil závěť, převedl majetek nebo udělil plnou moc k účtu.",
+      "warning_signs": [
+        "Náhlá žádost o podpis důležitých dokumentů „hned teď“",
+        "Izolace od právníka nebo notáře, který je na žadateli nezávislý",
+        "Výhrůžky nebo citové vydírání"
+      ],
+      "advice": [
+        "Nikdy nepodepisujte dokumenty pod nátlakem",
+        "Využijte nezávislého notáře a poraďte se s právníkem",
+        "Rozhodnutí proberte s důvěryhodnou osobou mimo danou situaci"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 28,
+      "category": "online",
+      "title": "Falešné QR kódy (quishing)",
+      "description": "Falešná QR nálepka (např. na parkovacím automatu nebo reklamě) vede na falešnou platební stránku nebo nainstaluje škodlivý software.",
+      "warning_signs": [
+        "QR kód vypadá jako nálepka přilepená přes stávající značení",
+        "Naskenovaná stránka žádá údaje o kartě",
+        "Adresa po naskenování je podezřelá nebo zkrácená"
+      ],
+      "advice": [
+        "Před zadáním údajů zkontrolujte adresu stránky",
+        "Vyhýbejte se platbám přes QR kód na neznámých, nejistých místech",
+        "V případě pochybností použijte oficiální aplikaci místo QR kódu"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 29,
+      "category": "phone",
+      "title": "Neznámé hovory „jedno zazvonění“ (Wangiri / ping call)",
+      "description": "Telefon jednou zazvoní z neznámého, často zahraničního čísla; zpětné zavolání vyvolá vysoké poplatky za číslo s přirážkou.",
+      "warning_signs": [
+        "Hovor z neznámého zahraničního čísla, který trvá jen okamžik",
+        "Číslo začíná neobvyklou předvolbou země",
+        "Silná zvědavost, kdo volal"
+      ],
+      "advice": [
+        "Neznámým zahraničním číslům nevolejte zpět",
+        "Před zpětným voláním číslo vyhledejte na internetu",
+        "Pokud se hovory opakují, číslo zablokujte"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 30,
+      "category": "mail_delivery",
+      "title": "Falešné poštovní loterie a soutěže",
+      "description": "Dopis o výhře v loterii, do které jste se nikdy nepřihlásili, který vyžaduje „administrativní poplatek“ za vyzvednutí výhry.",
+      "warning_signs": [
+        "Výhra v loterii bez účasti",
+        "Za vyzvednutí výhry se musí platit",
+        "Dopis vypadá úředně, ale odesílatel je neznámý nebo zahraniční"
+      ],
+      "advice": [
+        "Skutečné výhry nikdy nevyžadují platbu předem",
+        "Takové dopisy ignorujte a neodpovídejte na ně",
+        "V případě pochybností se poraďte s rodinou"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 31,
+      "category": "banking",
+      "title": "SIM swap (převzetí telefonního čísla)",
+      "description": "Podvodník se vydává za vás a přesvědčí vašeho mobilního operátora, aby vydal duplikát SIM karty nebo aktivoval eSIM na jeho zařízení, a zachytává tak SMS kódy, které vaše banka používá k autorizaci.",
+      "warning_signs": [
+        "Náhlá, nevysvětlená ztráta signálu telefonu",
+        "SMS o „výměně SIM“ nebo „aktivaci eSIM“, kterou jste nikdy nepožadovali",
+        "Nemáte přístup do bankovní aplikace, přestože je heslo správné"
+      ],
+      "advice": [
+        "Pokud náhle ztratíte signál, kontaktujte operátora jinou cestou (např. z jiného telefonu)",
+        "Požádejte operátora o další ochranu SIM (PIN nebo zámek přenosu čísla)",
+        "Zapněte v bankovní aplikaci SMS/push oznámení o každé transakci"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 32,
+      "category": "online",
+      "title": "Falešný platební odkaz v aplikacích s bazarem (OLX/Vinted/Marketplace)",
+      "description": "Kupující nebo prodávající pošle odkaz „zaplaťte dodatečné poštovné“, který věrně napodobuje skutečnou platformu a slouží ke krádeži údajů o vaší kartě.",
+      "warning_signs": [
+        "Odkaz vede mimo oficiální doménu platformy",
+        "Tlak, abyste klikli rychle, než „nabídka vyprší“",
+        "Stránka žádá úplné údaje o kartě, nejen částku"
+      ],
+      "advice": [
+        "Platby a zásilky vyřizujte pouze oficiálním postupem platformy, nikdy přes odkaz ze zprávy",
+        "Před zadáním údajů o kartě zkontrolujte přesnou webovou adresu",
+        "Od obchodu odstupte, pokud vám něco nesedí"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 33,
+      "category": "online",
+      "title": "Falešné SMS o mýtném nebo pokutě za parkování",
+      "description": "SMS tvrdí, že dlužíte nezaplacené mýtné nebo pokutu za parkování, a obsahuje odkaz „zaplatit nyní“ na falešnou platební stránku.",
+      "warning_signs": [
+        "Zkrácený odkaz nebo doména, která vypadá téměř, ale ne úplně oficiálně",
+        "Naléhavost („zaplaťte do 24 hodin, abyste se vyhnuli penále“)",
+        "Žádost o údaje o kartě na stránce mimo oficiální platební systém"
+      ],
+      "advice": [
+        "Případný dluh ověřujte pouze v oficiální aplikaci nebo na oficiálním webu, nikdy přes odkaz z SMS",
+        "Neklikejte na odkazy v neočekávaných platebních SMS",
+        "Podezřelou SMS nahlaste svému operátorovi"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 34,
+      "category": "investment",
+      "title": "Falešná „snadná práce“ – placené úkoly a dobíjení",
+      "description": "Náborář, obvykle na Telegramu nebo WhatsAppu, nabízí práci na dálku z jednoduchých „úkolů“ (lajky, recenze) a nakonec vás požádá, abyste zaplatili vlastní peníze k „odemčení“ údajně vydělaných prostředků.",
+      "warning_signs": [
+        "Práce se nabízí bez pohovoru a bez smlouvy",
+        "V určité chvíli máte platit vy, abyste dostali zaplaceno",
+        "Kontakt probíhá jen přes chat, bez možnosti firmu ověřit"
+      ],
+      "advice": [
+        "Nikdy neplaťte vlastní peníze k „odemčení“ výdělků",
+        "Před spoluprací firmu vyhledejte v oficiálním obchodním rejstříku",
+        "Přerušte kontakt, jakmile po vás budou chtít cokoli zaplatit"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 35,
+      "category": "phone",
+      "title": "Falešný hlas nebo video (deepfake pomocí AI)",
+      "description": "Podvodník pomocí AI napodobí hlas nebo tvář člena rodiny při videohovoru (varianta podvodu s vnukem) nebo vytvoří dojem, že známá osobnost doporučuje investici.",
+      "warning_signs": [
+        "Video nebo zvuk působí mírně nepřirozeně (zpoždění, zvláštní výrazy)",
+        "Volající se vyhýbá delšímu, přirozenému rozhovoru nebo náhle zavěsí",
+        "Doporučení investice od „celebrity“ se objevuje jen v reklamě, nikdy na oficiálních kanálech dané osoby"
+      ],
+      "advice": [
+        "Ověřte totožnost otázkou, na kterou zná odpověď jen skutečná osoba",
+        "Nevěřte videím ani nahrávkám veřejných osobností, které doporučují investice – zkontrolujte jejich vlastní oficiální kanály",
+        "V případě pochybností hovor ukončete a danou osobu kontaktujte jinou, již známou cestou"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 36,
+      "category": "in_person",
+      "title": "Podvod s pronájmem (kauce za neexistující inzerát)",
+      "description": "Falešný inzerát na byt, často s cenou pod tržní hodnotou, požaduje kauci dříve, než byt uvidíte, a „majitel“ tvrdí, že je v zahraničí a nemůže ho osobně ukázat.",
+      "warning_signs": [
+        "Cena je výrazně pod tržní hodnotou",
+        "„Majitel“ nemůže byt osobně ukázat s odkazem na cestu do zahraničí",
+        "Požadují kauci převodem před podpisem jakékoli nájemní smlouvy"
+      ],
+      "advice": [
+        "Nikdy neplaťte kauci dříve, než byt prohlédnete a podepíšete smlouvu",
+        "Ověřte, zda má osoba skutečně právo nemovitost pronajímat",
+        "Používejte osvědčené pronajímací portály a realitní kanceláře"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 37,
+      "category": "banking",
+      "title": "Nábor na „bílého koně“ (money mule)",
+      "description": "Někdo nabízí snadné peníze za půjčení vašeho bankovního účtu nebo přeposílání přijatých převodů – ve skutečnosti jde o praní špinavých peněz a trestně odpovědný je majitel účtu.",
+      "warning_signs": [
+        "Nabídka platby za „půjčení“ vašeho bankovního účtu nebo přeposílání přijatých převodů",
+        "Slib rychlých, snadných peněz bez vysvětlení, odkud jsou",
+        "Tlak na založení nového účtu speciálně pro tento účel"
+      ],
+      "advice": [
+        "Nikdy nedovolte nikomu jinému používat váš bankovní účet ani přeposílat převody na žádost cizího člověka",
+        "Pamatujte, že jako majitel účtu za tyto transakce právně odpovídáte vy",
+        "Nabídku nahlaste policii"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 38,
+      "category": "tech_support",
+      "title": "Krádež dat přes veřejnou Wi-Fi nebo nabíjecí stanice",
+      "description": "Připojení telefonu k nezabezpečené veřejné Wi-Fi nebo k neznámé veřejné USB nabíjecí stanici (tzv. „juice jacking“) může někomu umožnit zachytit vaše data nebo nainstalovat škodlivý software.",
+      "warning_signs": [
+        "Otevřená Wi-Fi se jménem, které věrně napodobuje oficiální (např. „Airport_Free“)",
+        "Veřejná USB nabíjecí stanice bez možnosti použít vlastní nabíječku do zásuvky",
+        "Telefon vás po připojení kabelu vyzve, abyste „důvěřovali“ neznámému zařízení"
+      ],
+      "advice": [
+        "Nespouštějte bankovní aplikace v nezabezpečené veřejné Wi-Fi",
+        "Na veřejných místech nabíjejte vlastní nabíječkou do zásuvky nebo powerbankou, ne USB kabelem zapojeným do neznámého portu",
+        "Pokud se telefon zeptá, zda důvěřovat připojenému zařízení, zvolte „pouze nabíjet“"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": 39,
+      "category": "in_person",
+      "title": "Falešné státní dotační programy (fotovoltaika, tepelné čerpadlo, výměna kotle)",
+      "description": "Telefonát, návštěva doma nebo internetová reklama nabízí „státní dotaci“ na fotovoltaiku, tepelné čerpadlo nebo výměnu kotle výměnou za registrační poplatek, osobní údaje nebo okamžité podepsání smlouvy.",
+      "warning_signs": [
+        "Tlak na okamžitý podpis, „nabídka platí jen dnes“",
+        "Požadavek zálohy nebo „registračního poplatku“ v hotovosti ještě před jakoukoli prací",
+        "Údajný „úředník“ neumí uvést skutečný program ani ukázat stránku gov.pl"
+      ],
+      "advice": [
+        "Dotační programy ověřujte pouze na oficiálních stránkách (např. gov.pl, Czyste Powietrze, NFOŚiGW)",
+        "Nikdy nepodepisujte smlouvu ani neplaťte zálohu pod časovým tlakem",
+        "Nabídku před rozhodnutím proberte s rodinou nebo s obecním úřadem"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "online",
+      "title": "Zpráva „z nového čísla“ v komunikační aplikaci",
+      "description": "SMS nebo zpráva na WhatsAppu z neznámého čísla, která se vydává za vaše dítě nebo vnuka, jenž „ztratil telefon“ a naléhavě potřebuje peníze na nový účet.",
+      "warning_signs": [
+        "Zpráva začíná „Ahoj mami/tati, to jsem já, ztratil jsem telefon“",
+        "Žádost o naléhavý převod na nové, neznámé číslo účtu",
+        "Odesílatel se vyhýbá telefonátu nebo videohovoru s tím, že má rozbitý mikrofon nebo kameru"
+      ],
+      "advice": [
+        "Zavolejte příbuznému na jeho dosavadní, známé číslo a ověřte si to",
+        "Neposílejte peníze, dokud neověříte totožnost jinou cestou",
+        "Domluvte se předem v rodině na bezpečnostním hesle pro takové situace"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 41,
+      "category": "investment",
+      "title": "Dlouhodobé budování důvěry vedoucí k falešné investici („pig butchering“)",
+      "description": "Cizí člověk poznaný přes komunikační aplikaci, seznamku nebo sociální sítě týdny buduje přátelství nebo vztah a pak doporučí „spolehlivou“ kryptoplatformu, která ukazuje falešné zisky a tlačí na stále vyšší vklady.",
+      "warning_signs": [
+        "Někdo, koho znáte jen online, brzy stočí rozhovor k „vydělávání společně“",
+        "Ukazuje snímky obrazovky údajně obřích zisků a nutí vás vložit peníze na neznámou platformu",
+        "Každý pokus o výběr prostředků narazí na nové „poplatky“, které je nutné nejdřív zaplatit"
+      ],
+      "advice": [
+        "Nikdy neinvestujte peníze na doporučení někoho, koho znáte jen online",
+        "Ověřte investiční platformu v seznamu veřejných varování vašeho národního finančního regulátora",
+        "Přerušte kontakt a promluvte si s rodinou, pokud na vás někdo tlačí, abyste vkládali peníze"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 42,
+      "category": "phone",
+      "title": "Falešné vymáhání dluhu s požadavkem okamžité platby",
+      "description": "Hovor, SMS nebo e-mail od údajné inkasní společnosti nebo advokátní kanceláře tvrdí, že máte nesplacený dluh, a hrozí exekutorem nebo soudem, pokud okamžitě nezaplatíte na uvedený účet.",
+      "warning_signs": [
+        "Požadavek okamžité platby, často na soukromý účet nebo přes odkaz v SMS",
+        "Výhrůžky exekutorem nebo soudem během několika hodin",
+        "Název firmy ani číslo případu nelze ověřit v žádném veřejném rejstříku"
+      ],
+      "advice": [
+        "Neplaťte „hned“ ze strachu – skutečné vymáhání probíhá písemně a s časem na odpověď",
+        "Inkasní společnost nebo kancelář si ověřte sami, např. v oficiálním obchodním rejstříku",
+        "V případě pochybností kontaktujte přímo skutečného věřitele (např. svou banku) na číslo z jeho oficiálního webu"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 43,
+      "category": "online",
+      "title": "Falešný web nebo aplikace pro objednání k lékaři",
+      "description": "Falešný web nebo reklama se vydává za online objednávkový systém, ordinaci nebo národní zdravotní fond (NFZ) a vyžaduje přihlášení údaji k internetovému bankovnictví „k ověření totožnosti“ nebo stažení placené aplikace.",
+      "warning_signs": [
+        "Stránka pro objednání žádá přihlašovací jméno a heslo do banky místo vašeho důvěryhodného profilu (profil zaufany)",
+        "Webová adresa se liší od oficiální domény ordinace nebo od pacjent.gov.pl",
+        "Požadavek platby kartou za „rezervaci termínu“ ve veřejném zdravotnictví"
+      ],
+      "advice": [
+        "K lékaři se objednávejte pouze přes oficiální web ordinace, telefonicky nebo přes pacjent.gov.pl",
+        "Nikdy nezadávejte přihlašovací údaje k bankovnictví na webu spojeném se zdravím",
+        "Před zadáním jakýchkoli údajů zkontrolujte adresní řádek"
+      ],
+      "risk_level": "medium",
+      "countries": [
+        "PL"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "in_person",
+      "title": "Nátlakový prodej po „bezplatném testu“ kvality vody nebo vzduchu",
+      "description": "Někdo, kdo se vydává za zástupce firmy, nabízí „bezplatný test“ kvality vody nebo vzduchu ve vašem domově a pak využije alarmující, těžko ověřitelný výsledek k tomu, aby vás přinutil okamžitě koupit drahé zařízení (filtr, čistička) na úvěr nebo splátky.",
+      "warning_signs": [
+        "„Test“ skončí alarmujícím výsledkem, který se těžko nezávisle ověřuje",
+        "Prodejce tlačí na podpis „jen dnes, se slevou“",
+        "Nabízí okamžitý podpis úvěrové nebo splátkové smlouvy přímo u vás doma"
+      ],
+      "advice": [
+        "Požádejte o čas na rozmyšlenou a během návštěvy nic nepodepisujte pod tlakem",
+        "Před koupí drahého zařízení si vyžádejte nezávislý názor (např. od místní hygienické stanice nebo jiného odborníka)",
+        "Pamatujte na své právo odstoupit od smlouvy uzavřené mimo prostory podnikatele do 14 dnů"
+      ],
+      "risk_level": "medium"
+    }
+  ]
+}

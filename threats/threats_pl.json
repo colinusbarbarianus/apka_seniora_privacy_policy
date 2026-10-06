@@ -2,8 +2,8 @@
   "meta": {
     "title": "Nie daj się – katalog zagrożeń",
     "description": "Lista najczęstszych metod oszustw i zagrożeń wraz z sygnałami ostrzegawczymi i zaleceniami postępowania. Dotyczy każdego, niezależnie od wieku – część metod częściej celuje w osoby starsze, inne bardziej w młodszych użytkowników internetu.",
-    "version": "0.2.0",
-    "last_updated": "2026-09-16",
+    "version": "0.3.0",
+    "last_updated": "2026-10-06",
     "language": "pl",
     "disclaimer": "Materiał edukacyjny. W razie realnego zagrożenia lub podejrzenia oszustwa skontaktuj się z policją (997/112) lub swoim bankiem.",
     "app_name": "Nie daj się"
@@ -695,6 +695,108 @@
         "Gdy telefon pyta o zaufanie do urządzenia po podłączeniu kabla, wybierz opcję \"tylko ładowanie\""
       ],
       "risk_level": "low"
+    },
+    {
+      "id": 39,
+      "category": "in_person",
+      "title": "Fałszywe programy dofinansowania (fotowoltaika, pompa ciepła, wymiana pieca)",
+      "description": "Telefon, wizyta domowa lub reklama internetowa oferująca „rządowe dofinansowanie” do fotowoltaiki, pompy ciepła lub wymiany pieca, w zamian za opłatę rejestracyjną, dane osobowe lub podpisanie umowy na miejscu.",
+      "warning_signs": [
+        "Presja na podpisanie umowy od razu, „oferta ważna tylko dziś”",
+        "Żądanie zaliczki lub „opłaty rejestracyjnej” gotówką przed realizacją",
+        "Rzekomy „urzędnik” nie potrafi podać numeru oficjalnego programu ani wskazać strony gov.pl"
+      ],
+      "advice": [
+        "Sprawdzaj programy dofinansowania wyłącznie na oficjalnych stronach (np. gov.pl, Czyste Powietrze, NFOŚiGW)",
+        "Nigdy nie podpisuj umowy ani nie płać zaliczki pod presją czasu",
+        "Przed podjęciem decyzji skonsultuj ofertę z rodziną lub lokalnym urzędem gminy"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 40,
+      "category": "online",
+      "title": "Wiadomość „z nowego numeru” na komunikatorze",
+      "description": "SMS lub wiadomość na WhatsAppie od nieznanego numeru, podająca się za dziecko lub wnuka, która twierdzi, że „zgubiła telefon” i pilnie potrzebuje pieniędzy na nowe konto.",
+      "warning_signs": [
+        "Wiadomość zaczyna się od „Cześć mamo/tato, to ja, zgubiłem telefon”",
+        "Prośba o pilny przelew na nowy, nieznany numer konta",
+        "Rozmówca unika rozmowy telefonicznej lub wideo, tłumacząc to zepsutym mikrofonem/kamerą"
+      ],
+      "advice": [
+        "Zadzwoń do bliskiej osoby na dotychczasowy, znany numer, aby zweryfikować sytuację",
+        "Nie przelewaj pieniędzy, dopóki nie potwierdzisz tożsamości inną drogą",
+        "Ustal wcześniej z rodziną hasło bezpieczeństwa na takie sytuacje"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 41,
+      "category": "investment",
+      "title": "Długotrwałe budowanie zaufania i nakłanianie do fałszywej inwestycji (tzw. „pig butchering”)",
+      "description": "Nieznajomy poznany przez komunikator, portal randkowy lub social media przez tygodnie buduje przyjaźń lub relację, po czym poleca „pewną” platformę inwestycyjną w kryptowaluty, na której pokazuje fałszywe zyski i nakłania do coraz większych wpłat.",
+      "warning_signs": [
+        "Osoba poznana online szybko przechodzi do tematu wspólnego „zarabiania” na inwestycjach",
+        "Pokazuje zrzuty ekranu rzekomych wysokich zysków i namawia do wpłaty na nieznaną platformę",
+        "Każda próba wypłaty środków wiąże się z nowymi „opłatami” do uiszczenia"
+      ],
+      "advice": [
+        "Nie inwestuj pieniędzy na polecenie osoby poznanej wyłącznie przez internet",
+        "Zweryfikuj platformę inwestycyjną w rejestrze ostrzeżeń publicznych KNF",
+        "Przerwij kontakt i skonsultuj się z rodziną, jeśli ktoś naciska na wpłaty finansowe"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": 42,
+      "category": "phone",
+      "title": "Fałszywa windykacja – rzekomy dług wymagający natychmiastowej wpłaty",
+      "description": "Telefon, SMS lub e-mail od rzekomej firmy windykacyjnej lub kancelarii prawnej informujący o „zaległym długu” i grożący wizytą komornika lub sprawą sądową, jeśli należność nie zostanie natychmiast wpłacona na wskazane konto.",
+      "warning_signs": [
+        "Żądanie natychmiastowej wpłaty, często na prywatne konto lub przez link w SMS-ie",
+        "Groźby komornika lub sądu w ciągu kilku godzin",
+        "Brak możliwości zweryfikowania nazwy firmy i numeru sprawy w ogólnodostępnych rejestrach"
+      ],
+      "advice": [
+        "Nie płać „na już” pod wpływem groźby – prawdziwa windykacja ma formę pisemną i czas na odpowiedź",
+        "Sprawdź dane firmy windykacyjnej lub kancelarii samodzielnie, np. w KRS",
+        "W razie wątpliwości skontaktuj się z rzeczywistym wierzycielem (np. bankiem) bezpośrednio z numeru ze strony internetowej"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 43,
+      "category": "online",
+      "title": "Fałszywa strona lub aplikacja rejestracji do lekarza (e-rejestracja/NFZ)",
+      "description": "Fałszywa strona internetowa lub reklama podszywająca się pod e-rejestrację do lekarza, przychodnię lub NFZ, która prosi o zalogowanie się danymi do bankowości internetowej „w celu weryfikacji tożsamości” albo pobranie płatnej aplikacji.",
+      "warning_signs": [
+        "Strona rejestracji prosi o login i hasło do banku zamiast profilu zaufanego",
+        "Adres strony różni się od oficjalnej domeny przychodni lub pacjent.gov.pl",
+        "Żądanie opłaty kartą za „rezerwację terminu” w publicznej służbie zdrowia"
+      ],
+      "advice": [
+        "Rejestruj się do lekarza tylko przez oficjalną stronę przychodni, telefonicznie lub przez pacjent.gov.pl",
+        "Nigdy nie podawaj danych logowania do bankowości na stronie związanej ze zdrowiem",
+        "Sprawdź adres strony w pasku przeglądarki, zanim wpiszesz jakiekolwiek dane"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": 44,
+      "category": "in_person",
+      "title": "Naciągająca sprzedaż po „darmowym badaniu” jakości wody lub powietrza w domu",
+      "description": "Osoba podająca się za przedstawiciela firmy oferuje „bezpłatne badanie” jakości wody lub powietrza w domu, po czym straszy wynikami i pod presją namawia do natychmiastowego zakupu drogiego urządzenia (filtra, oczyszczacza) na raty lub kredyt.",
+      "warning_signs": [
+        "„Badanie” kończy się alarmującym, trudnym do zweryfikowania wynikiem",
+        "Sprzedawca naciska na podpisanie umowy „tylko dziś, z rabatem”",
+        "Proponuje od razu podpisanie umowy kredytowej lub ratalnej w domu klienta"
+      ],
+      "advice": [
+        "Poproś o czas do namysłu i nie podpisuj niczego pod presją w trakcie wizyty",
+        "Zasięgnij niezależnej opinii (np. sanepid, inny specjalista) przed zakupem drogiego sprzętu",
+        "Pamiętaj o prawie do odstąpienia od umowy zawartej poza lokalem przedsiębiorstwa w ciągu 14 dni"
+      ],
+      "risk_level": "medium"
     }
   ]
 }
